@@ -1,0 +1,715 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Limping along with Octopress and Catalina macOS - Glimmer</title>
+<meta name="description" content="I am still using the Octopress 2 framework for the website.  This has been challenging as the dependencies for old obsolete software gets harder and harder to satisfy.  However, it appears that I have succeed again for at least the Catalina release of macOS.">
+
+
+  <meta name="author" content="David Green">
+  
+  <meta property="article:author" content="David Green">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Glimmer">
+<meta property="og:title" content="Limping along with Octopress and Catalina macOS">
+<meta property="og:url" content="http://localhost:4000/blog/2019/12/16/limping-along-with-octopress-and-catalina-macos">
+
+
+  <meta property="og:description" content="I am still using the Octopress 2 framework for the website.  This has been challenging as the dependencies for old obsolete software gets harder and harder to satisfy.  However, it appears that I have succeed again for at least the Catalina release of macOS.">
+
+
+
+
+
+  <meta name="twitter:site" content="@dgreeo">
+  <meta name="twitter:title" content="Limping along with Octopress and Catalina macOS">
+  <meta name="twitter:description" content="I am still using the Octopress 2 framework for the website.  This has been challenging as the dependencies for old obsolete software gets harder and harder to satisfy.  However, it appears that I have succeed again for at least the Catalina release of macOS.">
+  <meta name="twitter:url" content="http://localhost:4000/blog/2019/12/16/limping-along-with-octopress-and-catalina-macos">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+  <meta property="article:published_time" content="2019-12-16T23:46:00-06:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/blog/2019/12/16/limping-along-with-octopress-and-catalina-macos">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "David Green",
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Glimmer Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+</head>
+
+<body
+    class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/octocat-dgg-small-trans-no-meta.png" alt="Glimmer"></a>
+        
+        <a class="site-title" href="/">
+          Glimmer
+          <span class="site-subtitle">Faint insights into (mostly) the worlds of automation and productivity</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/date-archive/">by date</a>
+            </li><li class="masthead__menu-item">
+              <a href="/categories/">by category</a>
+            </li><li class="masthead__menu-item">
+              <a href="/tags/">by tag</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+        
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">David Green</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>Things that I am thinking about or learning (either through reading or by school of hard knocks). These are my personal thoughts and not necessarily the positions or thoughts of any organization I am associated with.</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">Birmingham, AL, USA</span>
+        </li>
+      
+
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Limping along with Octopress and Catalina macOS">
+    <meta itemprop="description" content="I am still using the Octopress 2 framework for the website.  This has been challenging as the dependencies for old obsolete software gets harder and harder to satisfy.  However, it appears that I have succeed again for at least the Catalina release of macOS.">
+    <meta itemprop="datePublished" content="2019-12-16T23:46:00-06:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="http://localhost:4000/blog/2019/12/16/limping-along-with-octopress-and-catalina-macos" class="u-url" itemprop="url">Limping along with Octopress and Catalina macOS
+</a>
+          </h1>
+          
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <p>I am still using the <a href="http://octopress.org">Octopress 2 framework</a> for the website.  This has been challenging as the dependencies for old obsolete software gets harder and harder to satisfy.  However, it appears that I have succeed again for at least the Catalina release of macOS.</p>
+
+<p>I found out I had a problem when I went to fix Disqus which had moved to <code class="language-plaintext highlighter-rouge">https://</code> protocol.  I found the files named disqus.html which had <code class="language-plaintext highlighter-rouge">http://</code> and changed it to <code class="language-plaintext highlighter-rouge">https://</code> but I was unable to regenerate the code due to a failure of the Octopress tool to run.</p>
+
+<p>I use</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>chruby ruby-2.2.10
+</code></pre></div></div>
+
+<p>due to the yajl-ruby which won’t build under later rubies.</p>
+
+<p>My already built ruby-2.2.10 would not run because the openssl 1.0 version that had been linked in had disappeared (either due to Catalina or my migration to a new MacBook Pro.)  Rebuilding ruby with</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ruby-install ruby-2.2.10
+</code></pre></div></div>
+
+<p>did not work nor did</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ruby-install ruby-2.2.10 <span class="nt">--</span> <span class="nt">--with-openssl-dir</span><span class="o">=</span>/usr/local/opt/openssl
+</code></pre></div></div>
+
+<p>did not work since the openssl was version 1.1.</p>
+
+<p>After a fair bit of false steps, the successful approach was built around Chris Hobb’s December 3, 2019 solution (for RVM) posted on <a href="https://stackoverflow.com/questions/15511943/troubles-with-rvm-and-openssl">Stack Overflow</a>.</p>
+
+<p>First follow his steps (repeated here) to install openssl 1.0.2 by downloading openssl 1.0.2 from <a href="https://www.openssl.org/source/">https://www.openssl.org/source/</a>, and then building and installing it with</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">tar</span> <span class="nt">-xzf</span> openssl-1.0.2t.tar.gz
+<span class="nb">cd </span>openssl-1.0.2t
+./Configure darwin64-x86_64-cc <span class="nt">--prefix</span><span class="o">=</span>/usr/local/opt/openssl@1.0
+make
+make <span class="nb">test
+sudo </span>make <span class="nb">install</span>
+</code></pre></div></div>
+
+<p>and then adapting to <code class="language-plaintext highlighter-rouge">chruby</code> / <code class="language-plaintext highlighter-rouge">ruby-install</code> approach, build ruby 2.2.10</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ruby-install ruby-2.2.10 <span class="nt">--</span> <span class="nt">--with-openssl-dir</span><span class="o">=</span>/usr/local/opt/openssl@1.0
+</code></pre></div></div>
+
+<p>Then going to the directory where I have the blog system and having previously deleted <code class="language-plaintext highlighter-rouge">Gemfile.lock</code>, I re-ran the install of gems into the <code class="language-plaintext highlighter-rouge">vendor</code> directory.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bundle <span class="nb">install</span>
+</code></pre></div></div>
+
+<p>Of course, in making this post, I issue</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bundle <span class="nb">exec </span>rake new_post[<span class="s2">"Limping along with Octopress and Catalina macOS"</span><span class="o">]</span>
+</code></pre></div></div>
+
+<p>Catalina has moved to using zsh instead of bash for its default shell.  Having taken the plunge, I found out that square brackets are used differently in zsh.  I was able to escape them to continue working:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bundle <span class="nb">exec </span>rake new_post<span class="se">\[</span><span class="s2">"Limping along with Octopress and Catalina macOS"</span><span class="se">\]</span>
+</code></pre></div></div>
+<p>Thanks to <a href="http://kinopyo.com/en/blog/escape-square-bracket-by-default-in-zsh!">Qihuan Piao</a> for this hint.</p>
+
+<p>##One less groan</p>
+
+<p>Evidently the version of pigments used does not know about <code class="language-plaintext highlighter-rouge">zsh</code> so the code blocks have to be marked as <code class="language-plaintext highlighter-rouge">bash</code> instead of <code class="language-plaintext highlighter-rouge">zsh</code>.</p>
+
+<p>Time to think about a supported framework.  Perhaps a migration to the modern version of Jekyll or a broader research into other static site tools that allow markdown content.</p>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#octopress" class="page__taxonomy-item p-category" rel="tag">#Octopress</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#blog" class="page__taxonomy-item p-category" rel="tag">blog</a>
+    
+    </span>
+  </p>
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2019-12-16T23:46:00-06:00">December 16, 2019</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?via=dgreeo&text=Limping+along+with+Octopress+and+Catalina+macOS%20http%3A%2F%2Flocalhost%3A4000%2Fblog%2F2019%2F12%2F16%2Flimping-along-with-octopress-and-catalina-macos" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fblog%2F2019%2F12%2F16%2Flimping-along-with-octopress-and-catalina-macos" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fblog%2F2019%2F12%2F16%2Flimping-along-with-octopress-and-catalina-macos" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/blog/2019/10/17/configuring-coolbeans-2019-dot-6" class="pagination--pager" title="Configuring CoolBeans 2019.6
+">Previous</a>
+    
+    
+      <a href="/blog/2020/05/25/making-bookmarked-pdfs-from-google-docs" class="pagination--pager" title="Making BookMarked PDFs from Google Docs
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h2 class="page__related-title">You may also enjoy</h2>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/blog/2021/09/09/finally-moving-on" rel="permalink">Finally Moving On
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">After eight years of using Octopress, this site is moving to a purer Jekyll blog using Minimal Mistakes Theme.  I have previously written about the problems ...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/blog/2021/07/13/update-to-using-maven-to-build-executable-jar-files" rel="permalink">Update to Using Maven to Build Executable Jar Files
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          2 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">This is an update to an earlier post.
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/blog/2021/04/06/big-surs-finder-copy-change-broke-my-keyboard-maestro-macro" rel="permalink">Big Sur’s Finder Copy change broke my Keyboard Maestro macro
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">In Catalina, Copy in Finder gets the path of a file.  In Big Sur, it only gets the filename.  One can hold down ⌥+⌘+C (or ⌥ and select Copy from the Finder m...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/blog/2021/02/16/dark-sky-weather-app" rel="permalink">Dark Sky - Weather App
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          2 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+    </div>
+
+    
+    <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+    </div>
+    
+
+    <div id="footer" class="page__footer">
+        <footer>
+            <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+            <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2021 David Green. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+        </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+    
+  <script>
+    var disqus_config = function () {
+      this.page.url = "http://localhost:4000/blog/2019/12/16/limping-along-with-octopress-and-catalina-macos";  /* Replace PAGE_URL with your page's canonical URL variable */
+      this.page.identifier = "/blog/2019/12/16/limping-along-with-octopress-and-catalina-macos"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+    };
+    (function() { /* DON'T EDIT BELOW THIS LINE */
+      var d = document, s = d.createElement('script');
+      s.src = 'https://faintinsights.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+  
+
+
+
+
+
+</body>
+
+</html>

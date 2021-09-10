@@ -1,0 +1,730 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Making BookMarked PDFs from Google Docs - Glimmer</title>
+<meta name="description" content="Updated: 10 June 2020 removed LibreOffice as tool, comments about Word Online">
+
+
+  <meta name="author" content="David Green">
+  
+  <meta property="article:author" content="David Green">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Glimmer">
+<meta property="og:title" content="Making BookMarked PDFs from Google Docs">
+<meta property="og:url" content="http://localhost:4000/blog/2020/05/25/making-bookmarked-pdfs-from-google-docs">
+
+
+  <meta property="og:description" content="Updated: 10 June 2020 removed LibreOffice as tool, comments about Word Online">
+
+
+
+
+
+  <meta name="twitter:site" content="@dgreeo">
+  <meta name="twitter:title" content="Making BookMarked PDFs from Google Docs">
+  <meta name="twitter:description" content="Updated: 10 June 2020 removed LibreOffice as tool, comments about Word Online">
+  <meta name="twitter:url" content="http://localhost:4000/blog/2020/05/25/making-bookmarked-pdfs-from-google-docs">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+  <meta property="article:published_time" content="2020-05-25T11:28:00-05:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/blog/2020/05/25/making-bookmarked-pdfs-from-google-docs">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "David Green",
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Glimmer Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+</head>
+
+<body
+    class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/octocat-dgg-small-trans-no-meta.png" alt="Glimmer"></a>
+        
+        <a class="site-title" href="/">
+          Glimmer
+          <span class="site-subtitle">Faint insights into (mostly) the worlds of automation and productivity</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/date-archive/">by date</a>
+            </li><li class="masthead__menu-item">
+              <a href="/categories/">by category</a>
+            </li><li class="masthead__menu-item">
+              <a href="/tags/">by tag</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+        
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">David Green</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>Things that I am thinking about or learning (either through reading or by school of hard knocks). These are my personal thoughts and not necessarily the positions or thoughts of any organization I am associated with.</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">Birmingham, AL, USA</span>
+        </li>
+      
+
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Making BookMarked PDFs from Google Docs">
+    <meta itemprop="description" content="Updated: 10 June 2020 removed LibreOffice as tool, comments about Word Online">
+    <meta itemprop="datePublished" content="2020-05-25T11:28:00-05:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="http://localhost:4000/blog/2020/05/25/making-bookmarked-pdfs-from-google-docs" class="u-url" itemprop="url">Making BookMarked PDFs from Google Docs
+</a>
+          </h1>
+          
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          4 minute read
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <p><strong>Updated:</strong> 10 June 2020 removed LibreOffice as tool, comments about Word Online</p>
+
+<p>This post focuses on ensuring that the Table of Contents, as set up using Google Docs index, are transferred into the bookmark metadata of the PDF file. This can not be done by simplifying downloading a Google Doc as a PDF. One must export to a <code class="language-plaintext highlighter-rouge">.docx</code> file and use Word, <del>Writer,</del> or Pages to produce the PDF file using the correct options for each program.</p>
+
+<p>Using macOS Preview as the PDF reader, we want the left sidebar when one selects Table of Contents to show the Table of Contents as bookmarks that allow quick access to the page where the content is.</p>
+
+<p><img src="/assets/images/sidebar-toc.png" alt="Preview showing sidebar with Table of Contents selected and results" /></p>
+
+<!--more-->
+
+<h2 id="background">Background</h2>
+
+<p>I have chosen Google Docs to maintain the IEEE Region 3 Operations Manual. IEEE is a GSuite organization, and I feel that using GoogleDocs had the best potential for promoting collaboration on documents. Additionally, it provides a cloud-based approach for ensuring the source content is available over time. One issue that arises from this choice is the reduced feature set in Google Docs as compared to Microsoft Word, LibreOffice Writer, and Apple Pages. Google Docs is growing to support more features over time, and the others (especially Microsoft and Apple) are trying to ensure consistent feature sets across all platforms (desktop, smartphone, web) – the gap is closing.</p>
+
+<h2 id="process-that-works">Process that works</h2>
+
+<p>TLDR;</p>
+
+<blockquote>
+  <p>Google Doc → download as .docx → use word processor with bookmark/accessibility options → PDF</p>
+</blockquote>
+
+<p>The process that works is to download the file from Google Docs as a <code class="language-plaintext highlighter-rouge">.docx</code> file. Then using Word, Writer, or Pages open the file and then export it to PDF choosing to use the accessibility options. My computer is a MacBook Pro 13 2018 and is presently running</p>
+
+<ul>
+  <li>MacOS Catalina 10.15.4</li>
+  <li>Microsoft Word 16.37 (from a Microsoft 365 subscription)</li>
+  <li>Microsoft Word365 (onlinee)</li>
+  <li><del>LibreOffice 6.4.4.2</del></li>
+  <li>Pages 10.0 (6748)</li>
+</ul>
+
+<p>The result we are seeking is to have the table of contents information inserted and maintained in Google Docs. It should not only appear in the PDF page but also appear in the metadata of the PDF file so that users can quickly jump to those sections.</p>
+
+<p>After using the heading styles in your document to denote the structure, insert the table of contents in the appropriate part of your document using the menu option <em>Insert → Table of Contents</em>. Choose to show numbers rather than links if you wish to support printed versions of the PDF. Make sure you are adding page numbers to your page (use the menu option <em>Insert → Page Numbers</em>). The table of contents should now be visible in the document. Right-clicking on the table of contents allows you the option to refresh the table of contents after document changes. You should also be able to click on an entry and select the link to jump to that portion of the document for editing.</p>
+
+<p>Using the menu option <em>File → Download → Microsoft Word (.docx)</em>, get a local machine copy of the document in <code class="language-plaintext highlighter-rouge">.docx</code> form. The next step is to open it in your tool of choice and create the PDF.</p>
+
+<h3 id="using-word">Using Word</h3>
+
+<p>Open the downloaded <code class="language-plaintext highlighter-rouge">.docx</code> file in Word. Choose <em>File → Save As…</em> and then select PDF as the File Format and choose to use the online service.</p>
+
+<p><img src="/assets/images/word-pdf.png" alt="Using Word's File → SaveAs..." /></p>
+
+<p>Note that one can use the online version of Word also using the <em>File → Save As → Download as PDF</em> option.</p>
+
+<h3 id="using-libreoffice-writer"><del>Using LibreOffice Writer</del></h3>
+
+<blockquote>
+  <p>(removed)</p>
+</blockquote>
+
+<h3 id="using-pages">Using Pages</h3>
+
+<p>Open the downloaded <code class="language-plaintext highlighter-rouge">.docx</code> file in Pages. Choose <em>File → Export To → PDF…</em> and choose to export using the accessibility option.</p>
+
+<p><img src="/assets/images/pages-pdf.png" alt="Using Pages's File → Export To → PDF..." /></p>
+
+<h2 id="issues-with-google-docs-export">Issues with Google Docs export</h2>
+
+<p>The most desirable workflow is for Google Docs to add the bookmarks from the Table of Contents to the PDF file or create the document in one of the tools (Word, Writer, or Pages) that will generate the desired PDF. Alas, this is not possible today. Looking at the Google Support forums, it is clear this is a desired feature, so hopefully, it will appear one day.</p>
+
+<p>In working towards a process to produce a PDF with bookmarks for the Table of Contents, I ran into two limitations in Google Docs. The working around the first limitation</p>
+
+<blockquote>
+  <p><em>File → Download → PDF Document (pdf)</em>: does not include the table of contents as bookmark metadata</p>
+</blockquote>
+
+<p>has been the focus of this post.</p>
+
+<p>I discovered an additional problem:</p>
+
+<blockquote>
+  <p><em>File → Down → Open Document Format (odf)</em>: does not export a proper Table of Contents index structure</p>
+</blockquote>
+
+<p>This limitation (at least part of this is a bug IMO) means that the Table of Contents, made correctly in Google Docs, is not translated into Open Document Format correctly. If you try to update the index, it shows nothing. It is not surprising then that it is not available for LibreOffice Writer to export the Table of Contents information as bookmark data. LibreOffice Writer does work when using the <code class="language-plaintext highlighter-rouge">.docx</code> output file after opening and saving it in Microsoft Word but that is less useful.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#fileformat" class="page__taxonomy-item p-category" rel="tag">#fileFormat</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#computing" class="page__taxonomy-item p-category" rel="tag">computing</a>
+    
+    </span>
+  </p>
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2020-05-25T11:28:00-05:00">May 25, 2020</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?via=dgreeo&text=Making+BookMarked+PDFs+from+Google+Docs%20http%3A%2F%2Flocalhost%3A4000%2Fblog%2F2020%2F05%2F25%2Fmaking-bookmarked-pdfs-from-google-docs" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fblog%2F2020%2F05%2F25%2Fmaking-bookmarked-pdfs-from-google-docs" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fblog%2F2020%2F05%2F25%2Fmaking-bookmarked-pdfs-from-google-docs" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/blog/2019/12/16/limping-along-with-octopress-and-catalina-macos" class="pagination--pager" title="Limping along with Octopress and Catalina macOS
+">Previous</a>
+    
+    
+      <a href="/blog/2020/12/26/using-localstorage-between-browser-windows" class="pagination--pager" title="Using localstorage between Browser Windows
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h2 class="page__related-title">You may also enjoy</h2>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/blog/2021/09/09/finally-moving-on" rel="permalink">Finally Moving On
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">After eight years of using Octopress, this site is moving to a purer Jekyll blog using Minimal Mistakes Theme.  I have previously written about the problems ...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/blog/2021/07/13/update-to-using-maven-to-build-executable-jar-files" rel="permalink">Update to Using Maven to Build Executable Jar Files
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          2 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">This is an update to an earlier post.
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/blog/2021/04/06/big-surs-finder-copy-change-broke-my-keyboard-maestro-macro" rel="permalink">Big Sur’s Finder Copy change broke my Keyboard Maestro macro
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">In Catalina, Copy in Finder gets the path of a file.  In Big Sur, it only gets the filename.  One can hold down ⌥+⌘+C (or ⌥ and select Copy from the Finder m...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/blog/2021/02/16/dark-sky-weather-app" rel="permalink">Dark Sky - Weather App
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          2 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+    </div>
+
+    
+    <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+    </div>
+    
+
+    <div id="footer" class="page__footer">
+        <footer>
+            <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+            <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2021 David Green. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+        </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+    
+  <script>
+    var disqus_config = function () {
+      this.page.url = "http://localhost:4000/blog/2020/05/25/making-bookmarked-pdfs-from-google-docs";  /* Replace PAGE_URL with your page's canonical URL variable */
+      this.page.identifier = "/blog/2020/05/25/making-bookmarked-pdfs-from-google-docs"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+    };
+    (function() { /* DON'T EDIT BELOW THIS LINE */
+      var d = document, s = d.createElement('script');
+      s.src = 'https://faintinsights.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+  
+
+
+
+
+
+</body>
+
+</html>

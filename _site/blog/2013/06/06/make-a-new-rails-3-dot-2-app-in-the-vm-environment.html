@@ -1,0 +1,758 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Make a new rails 3.2 app in the VM Environment - Glimmer</title>
+<meta name="description" content="After installing the VM on the computer, one can make a new Rails App by the following process:">
+
+
+  <meta name="author" content="David Green">
+  
+  <meta property="article:author" content="David Green">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Glimmer">
+<meta property="og:title" content="Make a new rails 3.2 app in the VM Environment">
+<meta property="og:url" content="http://localhost:4000/blog/2013/06/06/make-a-new-rails-3-dot-2-app-in-the-vm-environment">
+
+
+  <meta property="og:description" content="After installing the VM on the computer, one can make a new Rails App by the following process:">
+
+
+
+
+
+  <meta name="twitter:site" content="@dgreeo">
+  <meta name="twitter:title" content="Make a new rails 3.2 app in the VM Environment">
+  <meta name="twitter:description" content="After installing the VM on the computer, one can make a new Rails App by the following process:">
+  <meta name="twitter:url" content="http://localhost:4000/blog/2013/06/06/make-a-new-rails-3-dot-2-app-in-the-vm-environment">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+  <meta property="article:published_time" content="2013-06-06T15:38:00-05:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/blog/2013/06/06/make-a-new-rails-3-dot-2-app-in-the-vm-environment">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "David Green",
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Glimmer Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+</head>
+
+<body
+    class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/octocat-dgg-small-trans-no-meta.png" alt="Glimmer"></a>
+        
+        <a class="site-title" href="/">
+          Glimmer
+          <span class="site-subtitle">Faint insights into (mostly) the worlds of automation and productivity</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/date-archive/">by date</a>
+            </li><li class="masthead__menu-item">
+              <a href="/categories/">by category</a>
+            </li><li class="masthead__menu-item">
+              <a href="/tags/">by tag</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+        
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">David Green</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>Things that I am thinking about or learning (either through reading or by school of hard knocks). These are my personal thoughts and not necessarily the positions or thoughts of any organization I am associated with.</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">Birmingham, AL, USA</span>
+        </li>
+      
+
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Make a new rails 3.2 app in the VM Environment">
+    <meta itemprop="description" content="After installing the VM on the computer, one can make a new RailsApp by the following process:">
+    <meta itemprop="datePublished" content="2013-06-06T15:38:00-05:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="http://localhost:4000/blog/2013/06/06/make-a-new-rails-3-dot-2-app-in-the-vm-environment" class="u-url" itemprop="url">Make a new rails 3.2 app in the VM Environment
+</a>
+          </h1>
+          
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          2 minute read
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <p>After <a href="/blog/2013/06/06/using-bitnamis-rubystack-on-virtualbox-linux-with-vagrant/">installing the VM on the computer</a>, one can make a new Rails
+App by the following process:</p>
+
+<ul>
+  <li>Go to the machine directory in your host machine using the command line</li>
+  <li>Start up the VM if it is not running <code class="language-plaintext highlighter-rouge">vagrant up</code></li>
+  <li>Connect to the machine <code class="language-plaintext highlighter-rouge">vagrant ssh</code></li>
+  <li>
+    <p>First time only, tell git who you are</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>   git config --global user.email "you@example.com"
+   git config --global user.name "Your Name"
+</code></pre></div>    </div>
+  </li>
+  <li>Change to the directory that is shared between the guest OS and the host OS <code class="language-plaintext highlighter-rouge">cd /vagrant</code></li>
+  <li>Create a new Rails application <em>without</em> running bundler <code class="language-plaintext highlighter-rouge">rails new appname --skip-bundle</code></li>
+  <li>Install git’s tracking repository <code class="language-plaintext highlighter-rouge">git init appname</code></li>
+  <li>Change to the application directory <code class="language-plaintext highlighter-rouge">cd appname</code></li>
+  <li>Update <code class="language-plaintext highlighter-rouge">.gitignore</code> to skip tracking <code class="language-plaintext highlighter-rouge">database.yml</code> <strong>You can edit this on the host side rather than the OS side if you like your local editor better but use one that likes Unix line endings (i.e. NOT Notepad).</strong></li>
+</ul>
+
+<h3 id="gitignore">.gitignore</h3>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text"># See http://help.github.com/ignore-files/ for more about ignoring files.
+#
+# If you find yourself ignoring temporary files generated by your text editor
+# or operating system, you probably want to add a global ignore instead:
+#   git config --global core.excludesfile ~/.gitignore_global
+
+# Ignore bundler config
+/.bundle
+
+# Ignore the default SQLite database.
+/db/*.sqlite3
+
+# Ignore all logfiles and tempfiles.
+/log/*.log
+/tmp
+
+# Ignore database.yml
+/config/database.yml
+  </code></pre></figure>
+
+<ul>
+  <li>Move the code to check in to the staging area <code class="language-plaintext highlighter-rouge">git add .</code></li>
+  <li>Commit the code the repository <code class="language-plaintext highlighter-rouge">git commit -m "Initial commit after ignoring database.yml"</code></li>
+  <li>Make a copy of database.yml for archival <code class="language-plaintext highlighter-rouge">cp config/database.yml config/database-example.yml</code></li>
+  <li>Modify the Gemfile to include thin, theracer, and quiet_assets gems.</li>
+</ul>
+
+<h3 id="gemfile">Gemfile</h3>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">source</span> <span class="s1">'https://rubygems.org'</span>
+
+<span class="n">gem</span> <span class="s1">'rails'</span><span class="p">,</span> <span class="s1">'3.2.13'</span>
+
+<span class="c1"># Bundle edge Rails instead:</span>
+<span class="c1"># gem 'rails', :git =&gt; 'git://github.com/rails/rails.git'</span>
+
+<span class="n">gem</span> <span class="s1">'sqlite3'</span>
+<span class="n">gem</span> <span class="s1">'thin'</span>
+<span class="n">gem</span> <span class="s1">'quiet_assets'</span><span class="p">,</span> <span class="ss">:group</span> <span class="o">=&gt;</span> <span class="ss">:development</span>
+
+
+<span class="c1"># Gems used only for assets and not required</span>
+<span class="c1"># in production environments by default.</span>
+<span class="n">group</span> <span class="ss">:assets</span> <span class="k">do</span>
+  <span class="n">gem</span> <span class="s1">'sass-rails'</span><span class="p">,</span>   <span class="s1">'~&gt; 3.2.3'</span>
+  <span class="n">gem</span> <span class="s1">'coffee-rails'</span><span class="p">,</span> <span class="s1">'~&gt; 3.2.1'</span>
+
+  <span class="c1"># See https://github.com/sstephenson/execjs#readme for more supported runtimes</span>
+  <span class="n">gem</span> <span class="s1">'therubyracer'</span><span class="p">,</span> <span class="ss">:platforms</span> <span class="o">=&gt;</span> <span class="ss">:ruby</span>
+
+  <span class="n">gem</span> <span class="s1">'uglifier'</span><span class="p">,</span> <span class="s1">'&gt;= 1.0.3'</span>
+<span class="k">end</span>
+
+<span class="n">gem</span> <span class="s1">'jquery-rails'</span>
+
+<span class="c1"># To use ActiveModel has_secure_password</span>
+<span class="c1"># gem 'bcrypt-ruby', '~&gt; 3.0.0'</span>
+
+<span class="c1"># To use Jbuilder templates for JSON</span>
+<span class="c1"># gem 'jbuilder'</span>
+
+<span class="c1"># Use unicorn as the app server</span>
+<span class="c1"># gem 'unicorn'</span>
+
+<span class="c1"># Deploy with Capistrano</span>
+<span class="c1"># gem 'capistrano'</span>
+
+<span class="c1"># To use debugger</span>
+<span class="c1"># gem 'debugger'</span>
+
+  </code></pre></figure>
+
+<ul>
+  <li>Run bundle to lock in the gemfiles using the local version of the gems <code class="language-plaintext highlighter-rouge">bundle install --local</code></li>
+  <li>Start up the Rails app <code class="language-plaintext highlighter-rouge">rails s</code></li>
+  <li>On the host side, point the browser to <code class="language-plaintext highlighter-rouge">http://192.168.33.10:3000</code> and ensure that the base Rails “Welcome aboard” is visible.</li>
+</ul>
+
+<hr />
+
+<p>Updated 7 June 2013 after presentation to class – correcting two typos.</p>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#vm" class="page__taxonomy-item p-category" rel="tag">#vm</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#developer" class="page__taxonomy-item p-category" rel="tag">developer</a>
+    
+    </span>
+  </p>
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2013-06-06T15:38:00-05:00">June 6, 2013</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?via=dgreeo&text=Make+a+new+rails+3.2+app+in+the+VM+Environment%20http%3A%2F%2Flocalhost%3A4000%2Fblog%2F2013%2F06%2F06%2Fmake-a-new-rails-3-dot-2-app-in-the-vm-environment" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fblog%2F2013%2F06%2F06%2Fmake-a-new-rails-3-dot-2-app-in-the-vm-environment" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fblog%2F2013%2F06%2F06%2Fmake-a-new-rails-3-dot-2-app-in-the-vm-environment" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/blog/2013/06/06/using-bitnamis-rubystack-on-virtualbox-linux-with-vagrant" class="pagination--pager" title="Using Bitnami’s Rubystack on VirtualBox Linux with Vagrant
+">Previous</a>
+    
+    
+      <a href="/blog/2013/07/08/using-mysql-with-bitnami-on-vagrant-vm" class="pagination--pager" title="Using MySQL with Bitnami on Vagrant VM
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h2 class="page__related-title">You may also enjoy</h2>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/blog/2021/09/09/finally-moving-on" rel="permalink">Finally Moving On
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">After eight years of using Octopress, this site is moving to a purer Jekyll blog using Minimal Mistakes Theme.  I have previously written about the problems ...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/blog/2021/07/13/update-to-using-maven-to-build-executable-jar-files" rel="permalink">Update to Using Maven to Build Executable Jar Files
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          2 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">This is an update to an earlier post.
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/blog/2021/04/06/big-surs-finder-copy-change-broke-my-keyboard-maestro-macro" rel="permalink">Big Sur’s Finder Copy change broke my Keyboard Maestro macro
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">In Catalina, Copy in Finder gets the path of a file.  In Big Sur, it only gets the filename.  One can hold down ⌥+⌘+C (or ⌥ and select Copy from the Finder m...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/blog/2021/02/16/dark-sky-weather-app" rel="permalink">Dark Sky - Weather App
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          2 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+    </div>
+
+    
+    <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+    </div>
+    
+
+    <div id="footer" class="page__footer">
+        <footer>
+            <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+            <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2021 David Green. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+        </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+    
+  <script>
+    var disqus_config = function () {
+      this.page.url = "http://localhost:4000/blog/2013/06/06/make-a-new-rails-3-dot-2-app-in-the-vm-environment";  /* Replace PAGE_URL with your page's canonical URL variable */
+      this.page.identifier = "/blog/2013/06/06/make-a-new-rails-3-dot-2-app-in-the-vm-environment"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+    };
+    (function() { /* DON'T EDIT BELOW THIS LINE */
+      var d = document, s = d.createElement('script');
+      s.src = 'https://faintinsights.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+  
+
+
+
+
+
+</body>
+
+</html>

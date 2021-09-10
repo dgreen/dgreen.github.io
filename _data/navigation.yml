@@ -1,0 +1,14 @@
+# main links
+main:
+#  - title: "Glimmer"
+#   url: https://glimmer.gwizlabs.net
+# - title: "About"
+#   url: /about/
+  - title: "by date"
+    url: /date-archive/
+  - title: "by category"
+    url: /categories/
+  - title: "by tag"
+    url: /tags/
+# - title: "Sitemap"
+#    url: /sitemap/
