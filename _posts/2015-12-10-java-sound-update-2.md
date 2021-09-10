@@ -6,7 +6,7 @@ comments: true
 categories: developer
 tags: "#Java"
 ---
-This is an update to a prior [article](/blog/2014/10/23/java-sound-update/).
+This is an update to a prior [article](/blog/2014/10/23/java-sound-update).
 
 UAB EE Students Andrew Peturis, Chaselyn Langley and other team members produced an interesting 
 GUI Application for children to associate sounds with images.  In the course of doing this, they
