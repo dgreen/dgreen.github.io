@@ -2,8 +2,11 @@
 related: true
 title: Apple deprecating Java in 10.7
 categories:
-- Java
-- macOS
+  - computing
+  - developer
+tags:
+  - "#java"
+  - "#macos"
 ---
 In [Apple Trying to Ditch Java from Mac OS X, But Why? by Cory Bohon on
 Mac|Life][1] the author reviews Apple's recent announcement and his take on

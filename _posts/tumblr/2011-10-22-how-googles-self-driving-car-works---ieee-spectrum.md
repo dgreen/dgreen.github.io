@@ -1,7 +1,10 @@
 ---
 related: true
 title: How Google's Self-Driving Car Works - IEEE Spectrum
-categories: computing
+categories:
+  - computing
+tags:
+  - "#autonomous"
 ---
 [How Googles Self-Driving Car Works - IEEE Spectrum][1]
 

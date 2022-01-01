@@ -1,7 +1,10 @@
 ---
 related: true
 title: Dilbert's Glimmer of Hope
-categories: productivity blog humor
+categories:
+  - productivity
+tags:
+  - "#humor"
 ---
 Updated: 20210909
 

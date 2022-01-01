@@ -1,12 +1,13 @@
 ---
 related: true
-title: "Finding Java and NetBeans"
+title: Finding Java and NetBeans
 date: 2018-11-19 23:01
 comments: true
-categories: developer
+categories:
+  - developer
 tags:
-  - "#Java"
-  - "#NetBeans"
+  - "#java"
+  - "#netbeans"
 ---
 
 Working with NetBeans 9 with an OpenJDK 10 install on a MacOS Mojave machine.
@@ -21,7 +22,7 @@ This means that the `JAVA_HOME` should be set a bit differently (to `/Library/Ja
 
 There were several errors in the Ant-based building in NetBeans 9 which essentially were stating that it was not possible to find the `java` executable and that the RT (runtime) version would be used instead.
 
-In the build.xml file (on lines 120, 121, 127, 362, and 378 on the file I had), there was a path error that may either be just an error or more likely something that is not built correctly for the later JDK versions.  This removed a bunch of error messages.  
+In the build.xml file (on lines 120, 121, 127, 362, and 378 on the file I had), there was a path error that may either be just an error or more likely something that is not built correctly for the later JDK versions.  This removed a bunch of error messages.
 
 An example (120, 121) of this in diff form (leading spaces removed) is
 
@@ -35,7 +36,7 @@ An example (120, 121) of this in diff form (leading spaces removed) is
 
 But then, it looks like on restart, NetBeans did not like it and in nbproject/UPDATED.TXT it says
 
-```plain 
+```plain
 ============================================
 Project ScheduleBuilder build script updated
 ============================================

@@ -1,7 +1,8 @@
 ---
 related: true
 title: Don’t punish everyone
-categories: 
+categories:
+  - productivity
 ---
 [Don’t punish everyone][1]
 

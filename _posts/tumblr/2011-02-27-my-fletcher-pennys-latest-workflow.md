@@ -1,7 +1,8 @@
 ---
 related: true
 title: My (Fletcher Penney's) Latest Workflow
-categories: productivity
+categories:
+  - productivity
 ---
 [My (Fletcher Penneys) Latest Workflow][1]
 

@@ -1,7 +1,11 @@
 ---
 related: true
 title: Powerpoint Sound Record Bug
-categories: 
+categories:
+  - teach
+  - communicate
+tags:
+  - "#bug"
 ---
 Sometimes you think you are going crazy only to find out it is a software bug
 (or feature!).

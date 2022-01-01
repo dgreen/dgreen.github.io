@@ -1,7 +1,9 @@
 ---
 related: true
 title: Huddle Workspaces & LinkedIn Connection
-categories: 
+categories:
+  - collaborate
+  - productivity
 ---
 [Huddle Workspaces & LinkedIn Connection][1]
 

@@ -1,7 +1,12 @@
 ---
 related: true
 title: ! 'Herding Cats: Quote of the Day: Well Done is Better Than Well Said'
-categories: 
+categories:
+  - productivity
+  - communicate
+  - develop
+tags:
+  - "#quote"
 ---
 [Herding Cats: Quote of the Day: Well Done is Better Than Well Said][1]<br/>
 

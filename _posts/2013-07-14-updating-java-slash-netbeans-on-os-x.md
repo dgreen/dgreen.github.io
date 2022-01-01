@@ -3,9 +3,11 @@ related: true
 title: "Updating Java/NetBeans on OS X"
 date: 2013-07-14 17:41
 comments: true
-categories: developer
-tags: "#Java"
-tags: "#NetBeans"
+categories:
+  - developer
+tags:
+  - "#java"
+  - "#netbeans"
 ---
 ## Oracle Java on OS X
 
@@ -22,7 +24,7 @@ in addition to all the other components of the JDK.  This is probably not all
 bad as it means the development environment does not change on you without
 notice.
 
-## NetBeans on OS X 
+## NetBeans on OS X
 
 To update NetBeans, download a later version, start the new version and agree
 to migration from  the earlier release.  Then, when you are ready to eliminate

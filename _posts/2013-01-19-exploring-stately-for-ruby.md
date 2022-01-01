@@ -3,7 +3,8 @@ related: true
 title: "Exploring stately for Ruby"
 date: 2013-01-19 01:24
 comments: true
-categories: developer
+categories:
+  - developer
 ---
 As someone who has built a hardware-based Morse Code sending system, I am very interested in state machines and their implementation.
 

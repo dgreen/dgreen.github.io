@@ -1,7 +1,8 @@
 ---
 related: true
 title: Snow in Birmingham on March 1st.
-categories: 
+categories:
+  - personal
 ---
 ![][1]
 

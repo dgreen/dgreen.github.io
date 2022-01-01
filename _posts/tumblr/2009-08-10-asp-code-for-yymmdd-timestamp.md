@@ -1,7 +1,8 @@
 ---
 related: true
 title: ASP Code For YYMMDD timestamp
-categories: 
+categories:
+  - develop
 ---
 OK, so maybe no one will ever need it but I did (or so I thought) so after not
 finding code available, I wrote it.

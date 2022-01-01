@@ -1,7 +1,9 @@
 ---
 related: true
 title: ! 'The Patent Litigation Dilemma: Free Riders - Bits Blog - NYTimes.com'
-categories: 
+categories:
+  - develop
+tagas: #patents
 ---
 [The Patent Litigation Dilemma: Free Riders - Bits Blog - NYTimes.com][1]
 

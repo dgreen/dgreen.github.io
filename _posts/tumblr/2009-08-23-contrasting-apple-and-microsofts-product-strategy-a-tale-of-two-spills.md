@@ -1,11 +1,15 @@
 ---
 related: true
 title: ! 'Contrasting Apple and Microsoft’s Product Strategy: A Tale of Two Spills'
-categories: 
+categories:
+  - computing
+  - develop
+tags:
+  - "#design"
 ---
 [Contrasting Apple and Microsoft’s Product Strategy: A Tale of Two Spills][1]
 
-> From | Pathfinder Software Development | Blogs . 
+> From | Pathfinder Software Development | Blogs . 
 
 I have given this story in other forms:
 
@@ -16,10 +20,10 @@ I have given this story in other forms:
 
 Etc.
 
-My punch line:  no doubt the ease of use and better designed experience are
-worth the money once you experience them.  It is harder to see how one pushes
+My punch line:  no doubt the ease of use and better designed experience are
+worth the money once you experience them.  It is harder to see how one pushes
 that "promise" to someone who has not yet made the buy decision and is
-focusing on the incremental cost.  So far, it seems that it usually takes an
+focusing on the incremental cost.  So far, it seems that it usually takes an
 acquaintance who has already been through it to help.
 
 The other way for a few is the Mac Mini which lowers but does not eliminate

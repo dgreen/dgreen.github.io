@@ -2,7 +2,10 @@
 related: true
 title: Adding multiple from addresses to iPhone
 categories:
-- iOS
+  - computing
+tags:
+  - "#ios"
+  - "#iphone"
 ---
 For me, it it is adding an @IEEE.org as an alternate from: address in the
 iPhone mail client associated with a Google gmail account.

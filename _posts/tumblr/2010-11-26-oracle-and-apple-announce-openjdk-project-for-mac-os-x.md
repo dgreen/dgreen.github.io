@@ -1,7 +1,11 @@
 ---
 related: true
 title: Oracle and Apple Announce OpenJDK Project for Mac OS X
-categories: Java
+categories:
+  - developer
+tags:
+  - "#java"
+  - "#macos"
 ---
 [Oracle and Apple Announce OpenJDK Project for Mac OS X][1]
 

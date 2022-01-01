@@ -3,7 +3,8 @@ related: true
 title: "Success -- hard work and-or luck?"
 date: 2018-09-29 09:39
 comments: true
-categories: productivity
+categories:
+  - productivity
 ---
 
 In his article *[Absolute Success is Luck. Relative Success is Hard Work.][article]*, James Clear provides a pair of stories about how luck (including the circumstances one is born into) and hard work both play a role in success.  He concludes that luck controls absolute success and hard work controls relative success.

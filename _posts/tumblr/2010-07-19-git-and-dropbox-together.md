@@ -1,7 +1,10 @@
 ---
 related: true
 title: Git and DropBox Together
-categories: application developer
+categories:
+  - computing
+  - developer
+tags: "#sw-repository"
 ---
 There are several posts about using DropBox for the remote repository for Git.
 I wanted my local Git repository on DropBox to share between machines with a

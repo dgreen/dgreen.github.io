@@ -2,7 +2,10 @@
 related: true
 title: My rule is, people don’t get promoted for what they know; they get promoted
   for the class of problem they can solve.
-categories: 
+categories:
+  - productivity
+tags:
+  - "#quote"
 ---
 > My rule is, people don't get promoted for what they know; they get promoted
 for the class of problem they can solve.

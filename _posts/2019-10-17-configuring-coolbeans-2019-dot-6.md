@@ -3,11 +3,11 @@ related: true
 title: "Configuring CoolBeans 2019.6"
 date: 2019-10-17 22:29
 comments: true
-categories: developer
-tags: 
-  - "#application"
-  - "#Java"
-  - "#NetBeans"
+categories:
+  - developer
+tags:
+  - "#java"
+  - "#netbeans"
 ---
 
 > Now CoolBeans has been renamed OpenBeans

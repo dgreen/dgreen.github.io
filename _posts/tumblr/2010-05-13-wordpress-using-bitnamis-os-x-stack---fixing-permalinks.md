@@ -1,7 +1,9 @@
 ---
 related: true
 title: WordPress using Bitnami's OS X Stack - fixing permalinks
-categories: computing
+categories:
+  - computing
+  - communicate
 ---
 Looking at Wordpress for a variety of reasons since IEEE's EWH effort has
 decided to go with it.

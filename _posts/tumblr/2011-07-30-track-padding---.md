@@ -1,7 +1,10 @@
 ---
 related: true
 title: 'Track Padding...'
-categories: 
+categories:
+  - computing
+tags:
+  - "#hardware"
 ---
 
 I have switched to Lion along with much of the rest of the world. Trying

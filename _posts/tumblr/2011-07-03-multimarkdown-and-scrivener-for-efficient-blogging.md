@@ -1,7 +1,10 @@
 ---
 related: true
 title: MultiMarkdown and Scrivener for Efficient Blogging
-categories: 
+categories:
+  - communicate
+tags:
+  - "#markdown"
 ---
 [MultiMarkdown and Scrivener for Efficient Blogging][1]
 

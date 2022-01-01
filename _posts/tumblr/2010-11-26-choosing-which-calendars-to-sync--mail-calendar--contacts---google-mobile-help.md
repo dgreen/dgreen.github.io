@@ -1,7 +1,11 @@
 ---
 related: true
 title: ! 'Choosing Which Calendars to Sync : Mail, Calendar, & Contacts - Google Mobile Help'
-tags: 
+categories:
+  - computing
+  - collaborate
+tags:
+  - "#calendar"
 ---
 [Choosing Which Calendars to Sync : Mail, Calendar, & Contacts - Google Mobile
 Help][1]

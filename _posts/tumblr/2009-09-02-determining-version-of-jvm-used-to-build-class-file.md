@@ -1,7 +1,10 @@
 ---
 related: true
 title: Determining Version of JVM used to build class file
-categories: Java
+categories:
+  - develop
+tags:
+  - "#java"
 ---
 The details are given in [Thiam Teck's Blog][1].
 

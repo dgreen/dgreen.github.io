@@ -2,7 +2,10 @@
 related: true
 title: Doodle Best Practices
 categories:
-- productivity
+  - productivity
+  - collaborate
+tags:
+  - "#calendar"
 ---
 [Doodle][1] is a neat tool for scheduling efforts of people across systems. I
 use it a lot both for UAB and IEEE activities. Once one builds an account it

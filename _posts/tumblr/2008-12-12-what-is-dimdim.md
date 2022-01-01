@@ -1,7 +1,9 @@
 ---
 related: true
 title: What is Dimdim?
-categories: application collaboration
+categories:
+  - computing
+  - collaborate
 ---
 [What is Dimdim?][1]
 

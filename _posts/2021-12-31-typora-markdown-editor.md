@@ -3,13 +3,12 @@ title: "Typora - Markdown Editor"
 date: 2021-12-31 16:20
 comments: true
 related: true
-categories: productivity
-tags: 
-  - "#typora"
-  - "#markdown"
-  - "#mermaid"
+categories:
+  - productivity
+  - communicate
+tags:
   - "#jekyll"
-teaser: A Well Designed Markdown Editor for Writing
+excerpt: A Well Designed Markdown Editor for Writing
 ---
 
 <script type="text/javascript" id="MathJax-script" async

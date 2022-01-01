@@ -1,7 +1,10 @@
 ---
 related: true
 title: Khan Academy looks to bridge the education gap with online learning
-categories: 
+categories:
+  - teach
+tags:
+  - "#web"
 ---
 > Khan Academy looks to bridge the education gap with online learning
 

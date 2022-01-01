@@ -1,11 +1,14 @@
 ---
 related: true
 title: SheevaPlug Dev Kit - Linux Computer as Power Module
-categories: 
+categories:
+  - computing
+tags:
+  - "#hardware"
 ---
 [SheevaPlug Dev Kit - Linux Computer as Power Module][1]
 
-> An interesting form factor for a computer.  The architecture from the web
+> An interesting form factor for a computer. The architecture from the web
 site:
 
 ![Block diagram][2].

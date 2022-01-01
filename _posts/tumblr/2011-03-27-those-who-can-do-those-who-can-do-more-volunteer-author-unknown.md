@@ -1,9 +1,13 @@
 ---
 related: true
-title: Those who can, do.  Those who can do more, volunteer.  ~Author Unknown
-categories: 
+title: Those who can, do. Those who can do more, volunteer. ~Author Unknown
+categories:
+  - teach
+  - service
+tags:
+  - "#quote"
 ---
-> Those who can, do.  Those who can do more, volunteer.  ~Author Unknown
+> Those who can, do. Those who can do more, volunteer. ~Author Unknown
 
 --[Volunteer Appreciation Quotes, Sayings of Thanks for Volunteering][1]. This
 web page has many good quotes related to volunteering. I was originally drawn

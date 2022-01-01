@@ -1,9 +1,14 @@
 ---
 related: true
-title: Schubert|it PDF Browser Plugin
-categories: 
+title: Schubert-it PDF Browser Plugin
+categories:
+  - computing
+tags:
+  - "#macos"
+  - "#deadurl"
+excerpt: This plug-in makes EMBEDed PDF files in Safari 5+ and Firefox work!
 ---
-[Schubert|it PDF Browser Plugin][1]
+[Schubert-it PDF Browser Plugin][1] ☹️ Dead URL
 
 It&#8217;s back (and just in time). This plug-in makes EMBEDed PDF files
 in Safari 5+ and Firefox work!

@@ -2,8 +2,12 @@
 related: true
 title:  "Tumbling out!"
 date:   2013-05-27 23:02:45
-categories: blog
-tags: "#Tumblr"
+categories:
+  - news
+tags:
+  - "#blog"
+  - "#upgrade"
+  - "#jekyll"
 ---
 
 In a long overdue action, I have moved the glimmer blog out of Tumblr.  I had

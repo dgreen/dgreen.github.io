@@ -3,10 +3,10 @@ related: true
 title: "Using localstorage between Browser Windows"
 date: 2020-12-26 16:10
 comments: true
-categories: developer
-keys: "#web"
+categories:
+  - developer
+keys: #web
 ---
-
 
 ## Overview
 

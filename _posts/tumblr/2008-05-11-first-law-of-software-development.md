@@ -1,7 +1,11 @@
 ---
 related: true
 title: First Law of Software Development
-categories: developer
+categories:
+  - develop
+  - productivity
+tags:
+  - "#quote"
 ---
 [First Law of Software Development][1]
 

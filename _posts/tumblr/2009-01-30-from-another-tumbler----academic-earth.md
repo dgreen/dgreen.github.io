@@ -1,7 +1,10 @@
 ---
 related: true
 title: From another Tumbler -- Academic Earth
-categories: 
+categories:
+  - teach 
+tags:
+  - "#web"
 ---
 [From another Tumbler -- Academic Earth][1]
 

@@ -3,8 +3,11 @@ related: true
 title: "NetBeans Template Configurer"
 date: 2017-12-24 23:07
 comments: true
-categories: developer
-tags: "#NetBeans"
+categories:
+  - developer
+  - teach
+tags:
+  - "#netbeans"
 ---
 
 Many years ago, I wrote a [post][oldpost] about how to use the NetBeans template system for
@@ -32,8 +35,8 @@ license.  UAB students should be able to find a compiled version of the code
 in the form of a `templates.jar` file in their course Learning Management
 System.
 
-The students cleverly put the basic templates (modified versions of the ones in 
-NetBeans) in the jar file as resources allowing one to modify the templates as desired but only have to distribute a jar file to new students. 
+The students cleverly put the basic templates (modified versions of the ones in
+NetBeans) in the jar file as resources allowing one to modify the templates as desired but only have to distribute a jar file to new students.
 We placed the code into [Github](code).
 
 [oldpost]: blog/2009/09/24/configuring-netbeans-to-produce-custom-documentation-header/

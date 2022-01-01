@@ -1,7 +1,10 @@
 ---
 related: true
 title: The simple stuff can get you...
-categories: 
+categories:
+  - computing
+tags:
+  - "#bug"
 ---
 I was trying out the EPUB export of [VoodooPad][1] and figured out I had to
 make a cover page in the tool as well as a collection. I then filled out the

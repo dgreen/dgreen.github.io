@@ -3,8 +3,12 @@ related: true
 title: "Using MySQL with Bitnami on Vagrant VM"
 date: 2013-07-08 17:52
 comments: true
-categories: developer
-tags: "#vm"
+categories:
+  - developer
+  - teach
+tags:
+  - "#vm"
+  - "#database"
 ---
 
 The [Bitnami install doccumented earlier][install] is a bit broken relative to MySQL.

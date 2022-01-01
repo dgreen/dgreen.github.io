@@ -2,7 +2,8 @@
 related: true
 title: Desktop sharing software (AIR) version displaying the picture of the picture
   being displayed.
-categories: 
+categories:
+  - communicate
 ---
 ![][1]
 

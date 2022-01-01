@@ -2,7 +2,8 @@
 related: true
 title: ! 'How to make Subversion ignore files:  svn propset svn:ignore'
 categories:
-- developer
+  - develop
+tags: "#sw-repository"
 ---
 > How to make Subversion ignore files: svn propset svn:ignore
 

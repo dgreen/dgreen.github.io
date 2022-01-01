@@ -1,7 +1,10 @@
 ---
 related: true
 title: Giving back...
-categories: 
+categories:
+  - communicate
+  - support
+tags:
 ---
 [![Wikipedia Affiliate Button][1]][2]Not meaning to turn this into a
 significant advocacy post but similar to the public supporting resources like

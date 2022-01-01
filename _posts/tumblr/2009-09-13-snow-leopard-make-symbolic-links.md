@@ -1,10 +1,13 @@
 ---
 related: true
 title: Snow Leopard Make Symbolic Links
-categories: 
+categories:
+  - computing
+tags:
+  - "#macos"
 ---
 The old approach is no longer but valid but there is a [new release][1] which
-uses the service model.  I always use symbolic links over aliases as it works
+uses the service model. I always use symbolic links over aliases as it works
 at the command line.
 
 The advantage of the alias over the symbolic link is it "works" or trys to

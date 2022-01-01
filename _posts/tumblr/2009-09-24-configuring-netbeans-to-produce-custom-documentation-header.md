@@ -1,7 +1,11 @@
 ---
 related: true
 title: Configuring NetBeans to produce custom documentation header
-categories: Java NetBeans
+categories:
+  - develop
+tags:
+  - "#netbeans"
+  - "#java"
 ---
 Instructors and projects usually have documentation standards.  The [standards
 I supply my students][1] are an abbreviated version of what a project team
@@ -61,7 +65,7 @@ template) and [FaqFreeMarker][3] (coding in template).
 ---
 
 ### Update January 2013
- 
+
 In NetBeans 7.2.1, the variables are now reachable with the "Settings" button in the Templates dialog.
 
 One may also wish to look at the license support in the default template and include it in your template.

@@ -1,7 +1,10 @@
 ---
 related: true
 title: CoffeeScript with Select2 library
-categories: 
+categories:
+  - computing
+tags:
+  - "#bug"
 ---
 I had two demons: a new library and a language I was not really familiar with.
 A formula for puzzles. I did not find quickly the right example to do the

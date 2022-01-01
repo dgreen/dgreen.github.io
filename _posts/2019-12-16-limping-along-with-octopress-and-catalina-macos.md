@@ -1,10 +1,14 @@
 ---
 related: true
-title: "Limping along with Octopress and Catalina macOS"
+title: Limping along with Octopress and Catalina macOS
 date: 2019-12-16 23:46
 comments: true
-categories: blog
-tags: "#Octopress"
+categories:
+  - communicate
+tags:
+  - "#blog"
+  - "#octopress"
+  - "#jekyll"
 ---
 
 I am still using the [Octopress 2 framework][octopress] for the website.  This has been challenging as the dependencies for old obsolete software gets harder and harder to satisfy.  However, it appears that I have succeed again for at least the Catalina release of macOS.

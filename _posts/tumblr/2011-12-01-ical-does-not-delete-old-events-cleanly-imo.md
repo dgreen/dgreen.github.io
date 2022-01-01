@@ -1,7 +1,12 @@
 ---
 related: true
 title: iCal does not delete old events cleanly IMO
-categories: 
+categories:
+  - computing
+  - collaborate
+  - develop
+tags:
+  - "#bug"
 ---
 I turned on (for a few minutes) deletions of iCal events. Some of my calendars
 are hosted in Exchange and some on Google. Some of these events are group

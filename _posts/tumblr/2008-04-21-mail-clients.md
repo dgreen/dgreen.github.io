@@ -1,7 +1,11 @@
 ---
 related: true
 title: Mail clients
-categories: application email macOS 
+categories:
+  - computing
+tags:
+  - "#email"
+  - "#macos" 
 ---
 Boy, the trade-offs in Mac Mail clients can drive you crazy.  The Mail.app has
 appealing features like templates, AOL presence detection, use of files to

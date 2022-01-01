@@ -3,8 +3,10 @@ related: true
 title: "Making BookMarked PDFs from Google Docs"
 date: 2020-05-25 11:28
 comments: true
-categories: computing
-tags: 
+categories:
+  - computing
+  - communicate
+tags:
   - "#fileFormat"
 ---
 

@@ -1,7 +1,11 @@
 ---
 related: true
-title: ! 'The web browser on the iPhone is superb!'
-categories: iPhone
+title: 'The web browser on the iPhone is superb!'
+categories:
+  - computing
+tags:
+  - "#iphone"
+  - "#web"
 ---
 ![][1]
 

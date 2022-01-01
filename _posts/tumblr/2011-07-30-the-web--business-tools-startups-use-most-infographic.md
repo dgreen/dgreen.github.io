@@ -1,7 +1,10 @@
 ---
 related: true
 title: The Web & Business Tools Startups Use Most [INFOGRAPHIC]
-categories: 
+categories:
+  - develop
+tags:
+  - "#web"
 ---
 [The Web & Business Tools Startups Use Most [INFOGRAPHIC]][1]
 

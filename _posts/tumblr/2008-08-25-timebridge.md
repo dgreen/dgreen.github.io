@@ -1,7 +1,10 @@
 ---
 related: true
 title: Timebridge
-categories: application productivity
+categories:
+  - productivity
+  - computing
+  - collaborate
 ---
 Another neat web service:  [Timebridge][1].  This service helps one schedule
 meetings with colleagues.  You pick out several choices for the meeting, the

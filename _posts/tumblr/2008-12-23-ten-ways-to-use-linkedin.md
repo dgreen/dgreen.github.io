@@ -2,7 +2,10 @@
 related: true
 title: Ten Ways to Use LinkedIn
 categories:
-  - IEEE
+  - collaborate
+  - communicate
+tags:
+  - "#ieee"
 ---
 [Ten Ways to Use LinkedIn][1]
 

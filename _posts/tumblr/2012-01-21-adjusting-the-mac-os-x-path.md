@@ -2,7 +2,9 @@
 related: true
 title: Adjusting the Mac OS X path
 categories:
-- macOS
+  - computing
+tags:
+  - "#macos"
 ---
 The **path** is an environmental variable that tells the command line (shell)
 processor where to look for programs (commands) to run when they are entered

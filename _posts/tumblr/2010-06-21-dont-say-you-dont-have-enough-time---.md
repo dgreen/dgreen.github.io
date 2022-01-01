@@ -1,7 +1,10 @@
 ---
 related: true
 title: Don’t say you don’t have enough time...
-categories: 
+categories:
+  - productivity
+tags:
+  - "#quote"
 ---
 > Don't say you don't have enough time. You have exactly the same number of
 hours per day that were given to Helen Keller, Louis Pasteur, Michelangelo,

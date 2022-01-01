@@ -1,7 +1,10 @@
 ---
 related: true
 title: ! 'The only reason to answer the phone...'
-categories: quote
+categories:
+  - communicate
+tags:
+  - "#quote"
 ---
 > The only reason to answer the phone when a customer calls is to make the
 customer happy.

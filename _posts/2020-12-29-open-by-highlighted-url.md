@@ -3,10 +3,12 @@ related: true
 title: "Open Selection by highlighted URL"
 date: 2020-12-29 11:07
 comments: true
-categories: computing
-tags:
-  - "#Evernote"
-  - "#macOS"
+categories:
+  - computing
+  - productivity
+tags: 
+  - "#evernote"
+  - "#macos"
 ---
 
 In Evernote 10, I have lost the ability to include general URLs as linked items.  The links already in a note still work but Evernote 10 does not allow the insertion of new links. While not perfect, Keyboard Maestro on macOS can mitigate some of the missing behavior for Mac users.

@@ -1,7 +1,8 @@
 ---
 related: true
 title: Flight Computers Helped Save Ditched Airbus (The Risk Factor)
-categories: computing
+categories:
+  - computing
 ---
 [Flight Computers Helped Save Ditched Airbus (The Risk Factor)][1]
 

@@ -1,7 +1,9 @@
 ---
 related: true
 title: Oh my darling Clementine (from a proud Grandpa)
-categories: personal
+categories:
+  - personal
+  - news
 ---
 ![][1]
 

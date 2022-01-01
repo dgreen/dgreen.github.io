@@ -1,7 +1,7 @@
 ---
 related: true
 title: TripIt - Organize your travel
-categories: application productivity 
+categories: #productivity
 ---
 [TripIt - Organize your travel][1]
 

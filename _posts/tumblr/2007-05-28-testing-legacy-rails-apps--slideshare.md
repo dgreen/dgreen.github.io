@@ -1,7 +1,10 @@
 ---
 related: true
 title: Testing Legacy Rails Apps » SlideShare
-categories: developer
+categories:
+  - developer
+tags:
+  - "#rails"
 ---
 [Testing Legacy Rails Apps » SlideShare][1]
 

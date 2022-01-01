@@ -1,7 +1,10 @@
 ---
 related: true
 title: Selenium web application testing system
-categories: 
+categories:
+  - develop
+tags:
+  - "#test"
 ---
 [Selenium web application testing system][1]
 

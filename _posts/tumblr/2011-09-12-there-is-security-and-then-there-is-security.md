@@ -1,7 +1,10 @@
 ---
 related: true
 title: There is security and then there is security...
-categories: 
+categories:
+  - computing
+tags:
+  - "#security"
 ---
 Back in an [earlier post][1], I lamented about some of the errors made by
 DropBox that (greatly) reduced the security on data and how I was looking at

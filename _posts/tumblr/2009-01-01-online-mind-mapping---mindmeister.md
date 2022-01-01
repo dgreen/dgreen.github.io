@@ -1,7 +1,9 @@
 ---
 related: true
 title: Online Mind Mapping - MindMeister
-categories: 
+categories:
+  - communicate
+  - productivity
 ---
 [Online Mind Mapping - MindMeister][1]
 

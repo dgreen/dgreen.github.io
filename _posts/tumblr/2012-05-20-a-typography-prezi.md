@@ -1,7 +1,8 @@
 ---
 related: true
 title: A Typography Prezi
-categories: 
+categories:
+  - communicate
 ---
 [A Typography Prezi][1]
 

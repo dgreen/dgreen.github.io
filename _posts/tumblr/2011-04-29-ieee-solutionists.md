@@ -1,7 +1,12 @@
 ---
 related: true
 title: IEEE Solutionists
-categories: IEEE
+categories:
+  - computing
+  - service
+  - communicate
+tags:
+  - "#ieee"
 ---
 [IEEE Solutionists][1]
 

@@ -1,7 +1,10 @@
 ---
 related: true
 title: Snow Leopard's Preview Updates upon regaining focus
-categories: 
+categories:
+  - computing
+tags:
+  - "#macos"
 ---
 Preview.app (the PDF and graphic viewer) will update itself to changes in the
 underlying file when it gains focus. That makes it more valuable for

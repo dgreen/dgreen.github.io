@@ -3,9 +3,14 @@ title: "Update to Using Maven to Build Executable Jar Files"
 date: 2021-07-13 22:26
 comments: true
 related: true
-categories: developer Java
-tags: Maven
-tags: NetBeans
+categories:
+  - computing
+  - develop
+tags:
+  - "#maven"
+  - "#netbeans"
+  - "#java"
+excerpt: This is an update to an earlier post adding the ability to include jar files from other projects
 ---
 
 This is an update to an [earlier post](/blog/2019/09/15/onward-to-maven/).

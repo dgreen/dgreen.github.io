@@ -3,8 +3,11 @@ related: true
 title: "Using Bitnami's Rubystack on VirtualBox Linux with Vagrant"
 date: 2013-06-06 01:36
 comments: true
-categories: developer
-tags: "#vm"
+categories:
+  - developer
+  - teach
+tags:
+  - "#vm"
 ---
 
 In my Software Engineering Projects class, we are going to do a RAILS-based

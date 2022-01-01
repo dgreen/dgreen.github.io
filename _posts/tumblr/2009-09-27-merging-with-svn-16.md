@@ -2,15 +2,16 @@
 related: true
 title: Merging with svn 1.6
 categories:
-- developer
+  - develop
+tags: "#sw-repository"
 ---
 Lots of work has been done by the Subversion team (probably in response to
-Git).  One can now do a merge from a project branch back into the main trunk
+Git).  One can now do a merge from a project branch back into the main trunk
 rather easy:
 
 `svn merge ^/tags/version-1.6.1/`
 
-will merge changes in 1.6.1 not in the trunk.  The ^ is relative remote
+will merge changes in 1.6.1 not in the trunk.  The ^ is relative remote
 addressing.
 
 **Update:**

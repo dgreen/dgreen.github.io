@@ -2,7 +2,9 @@
 related: true
 title: ! 'Caltech proposes curriculum change: more breadth in science, better writing
   skills - San Jose Mercury News'
-categories: 
+categories:
+  - teach
+  - communicate
 ---
 [Caltech proposes curriculum change: more breadth in science, better writing
 skills - San Jose Mercury News][1]

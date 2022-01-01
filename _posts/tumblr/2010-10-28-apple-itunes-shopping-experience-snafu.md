@@ -1,7 +1,10 @@
 ---
 related: true
 title: Apple iTunes Shopping Experience Snafu
-categories: 
+categories:
+  - personal
+tags:
+  - "#bug"
 ---
 Am I the only one is bothered by having Apple iTunes drop your purchase
 request when Apple decides to change their terms and forces you to agree to

@@ -1,7 +1,11 @@
 ---
 related: true
 title: Mail.app notes in Exchange 2003 (at least)
-categories: email macOS
+categories:
+  - computing
+tags:
+  - "#email"
+  - "#macos"
 ---
 When I started trying to use the new Notes feature in Mail.app, I was having
 trouble with them _not_ being stored on the Exchange server.  I found that I

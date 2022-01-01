@@ -1,7 +1,9 @@
 ---
 related: true
 title: GitHub with Assembla
-categories: 
+categories:
+  - develop
+tags: "#sw-repository"
 ---
 
 [GitHub][] has now made a nice simple GUI tool for both [OS X][1] and

@@ -1,11 +1,16 @@
 ---
 related: true
 title: Reducing email part 2
-categories: email
+categories:
+  - productivity
+  - communicate
+  - collaborate
+tags:
+  - "#email"
 ---
 In response to my last post (which I e-mailed ((blush)) to him), RonJ shared a
-link to a blog of someone working to rid himself of e-mail.  I found this post
-on [Giving Up on Work e-mail][1] to be very interesting.  In this article was
+link to a blog of someone working to rid himself of e-mail. I found this post
+on [Giving Up on Work e-mail][1] to be very interesting. In this article was
 a graphic (from another blog whose article was [Wiki collaboration leads to
 happiness][2]) which I found to illuminate both the e-mail issue as well as
 the need for native posting in wikis.
@@ -14,12 +19,12 @@ the need for native posting in wikis.
 
 Note that the e-mail case is placing the information in another tool besides
 native email (in this case Word) and the wiki collaboration system is using
-native capabilities for both editing and viewing.  This is a major point.  If
+native capabilities for both editing and viewing. This is a major point. If
 another tool (again such as Word) is used unnecessarily, then it reduces the
 ease of collaboration.
 
 For those who say "it is easier to prepare in ((pick your favorite tool))",
-remember collaboration is many to many with many reading each post.  The
+remember collaboration is many to many with many reading each post. The
 energy should be in the writing to benefit (and ensure) the many readers of
 each post.
 

@@ -1,10 +1,11 @@
 ---
 related: true
 title: ! 'Feed the google: ie7 png jpg MIME confusion'
-categories: 
-  - computing
+categories:
+  - develop
 tags:
   - "#fileFormat"
+  - "#web"
 ---
 So DavidB and I are working on a new bug in OUMgt -> folks can't upload .jpg
 and .png files into our RAILS app. This used to work.

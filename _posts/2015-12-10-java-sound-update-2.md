@@ -1,14 +1,17 @@
 ---
 related: true
-title: "Java Sound Update 2"
+title: Java Sound Update 2
 date: 2015-12-10 20:22
 comments: true
-categories: developer
-tags: "#Java"
+categories:
+  - developer
+  - teach
+tags:
+  - "#java"
 ---
 This is an update to a prior [article](/blog/2014/10/23/java-sound-update).
 
-UAB EE Students Andrew Peturis, Chaselyn Langley and other team members produced an interesting 
+UAB EE Students Andrew Peturis, Chaselyn Langley and other team members produced an interesting
 GUI Application for children to associate sounds with images.  In the course of doing this, they
 wished to expand the control of the audio beyond my original example.  They discovered a bit of
 behavior that was not (at least clearly) documented in the JAVA API.
@@ -40,7 +43,7 @@ public class Sound {
     private String sound;
     private Clip clip;
     private boolean isPlaying;  // Sound loaded up and has started playing (may be paused)
-    
+
 
     // Don't allow default constructor
     private Sound() {
@@ -83,11 +86,11 @@ public class Sound {
             clip.stop();
         }
     }
-    
+
     // Stop a sound from playing and clear out the line to play another sound if need be.
     public void end() {
         if (isPlaying) {
-            pause();        
+            pause();
             // clip.close(); will clear out the line and allow a new sound to play. clip.flush() was not 
             // used because it can only flush out a line of data already performed.
             clip.close();

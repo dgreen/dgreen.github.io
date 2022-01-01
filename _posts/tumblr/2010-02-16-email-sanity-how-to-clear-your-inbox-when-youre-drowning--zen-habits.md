@@ -1,17 +1,21 @@
 ---
 related: true
-title: ! 'Email Sanity: How to Clear Your Inbox When You’re Drowning | Zen Habits'
-categories: 
+title: ! 'Email Sanity: How to Clear Your Inbox When You’re Drowning by Zen Habits'
+categories:
+  - communicate
+  - productivity
+tags:
+  - "#email"
 ---
-[Email Sanity: How to Clear Your Inbox When You’re Drowning | Zen Habits][1]
+[Email Sanity: How to Clear Your Inbox When You’re Drowning by Zen Habits][1]
 
 > A good article about the Zero Inbox approach, how to get there and how to
-stay there. 
+stay there.
 
-One has to decide on the use of e-mail:  alerts, communication, reference
-information, etc.  The author effectively suggests limiting things to directed
+One has to decide on the use of e-mail: alerts, communication, reference
+information, etc. The author effectively suggests limiting things to directed
 communication and (apparently) use other systems for the other communications
-form.  Zero Inbox can work even if you want to keep your reference information
+form. Zero Inbox can work even if you want to keep your reference information
 -- you do have to get it out of your inbox (and put it somewhere else).
 
 [1]: http://zenhabits.net/2010/02/email-sanity/

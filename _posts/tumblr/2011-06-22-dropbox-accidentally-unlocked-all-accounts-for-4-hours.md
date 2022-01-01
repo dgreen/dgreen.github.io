@@ -1,7 +1,11 @@
 ---
 related: true
 title: Dropbox Accidentally Unlocked All Accounts for 4 Hours
-categories: 
+categories:
+  - computing
+tags:
+  - "#bug"
+  - "#security"
 ---
 [Dropbox Accidentally Unlocked All Accounts for 4 Hours][1]
 

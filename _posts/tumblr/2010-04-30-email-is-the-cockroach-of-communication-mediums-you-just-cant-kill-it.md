@@ -1,7 +1,11 @@
 ---
 related: true
 title: ! 'email is the cockroach of communication mediums: you just can’t kill it.'
-categories: email quote
+categories:
+  - communicate
+tags:
+  - "#email"
+  - "#quote"
 ---
 > email is the cockroach of communication mediums: you just can't kill it.
 

@@ -1,7 +1,11 @@
 ---
 related: true
 title: ! 'Career Focus: Software Engineering'
-categories: 
+categories:
+  - develop
+  - teach
+tags:
+  - "#career"
 ---
 [Career Focus: Software Engineering][1]
 

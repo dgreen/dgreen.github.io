@@ -1,9 +1,15 @@
 ---
 related: true
 title: Snow Leopard - smooth install
-categories: Java macOS personal
+categories:
+  - computing
+  - personal
+tags:
+  - "#java"
+  - "#macos"
+  - "#upgrading"
 ---
-![Snow Leopard][1]I have now installed Snow Leopard on 3 machines (1 more to
+I have now installed Snow Leopard on 3 machines (1 more to
 go plus a server).
 
 I had waited about a week and between the effort the vendors put in before the
@@ -70,7 +76,6 @@ above, it seems I don't have an understanding of "why" and at this point,
 after 10.6.1 patch (if that matters), my Oracle application is working in both
 32bit and 64bit modes of Safari.
 
-   [1]: http://images.apple.com/macosx/images/buystrip_snow_box_20090824.jpg
    [2]: http://www.macosxhints.com/article.php?story=2009082703155512&query=ipsec%2Bpassword
    [3]: http://support.microsoft.com/kb/974283
    [4]: http://aloiroberto.wordpress.com/2009/08/29/snow-leopard-system-events-app-resolved/

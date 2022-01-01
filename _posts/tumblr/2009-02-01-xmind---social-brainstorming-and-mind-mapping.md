@@ -1,7 +1,11 @@
 ---
 related: true
 title: XMind - Social Brainstorming and Mind Mapping
-categories: 
+categories:
+  - computing
+  - productivity
+tags:
+  - "#mindmap"
 ---
 [XMind - Social Brainstorming and Mind Mapping][1]
 

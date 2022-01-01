@@ -1,7 +1,7 @@
 ---
 related: true
 title: The Engineering Notebook
-categories: 
+categories:
   - productivity
 ---
 [The Engineering Notebook][1]

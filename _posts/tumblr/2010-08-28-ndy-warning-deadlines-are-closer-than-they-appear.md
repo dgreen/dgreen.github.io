@@ -1,7 +1,10 @@
 ---
 related: true
 title: ! '/\ndy: Warning! Deadlines are closer than they appear'
-categories: 
+categories:
+  - productivity
+tags:
+  - "#quote"
 ---
 [/\ndy: Warning! Deadlines are closer than they appear][1]
 

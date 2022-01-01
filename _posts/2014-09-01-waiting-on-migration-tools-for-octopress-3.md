@@ -3,8 +3,11 @@ related: true
 title: "Waiting on Migration Tools for Octopress 3"
 date: 2014-09-01 01:33
 comments: true
-categories: blog
-tags: "#Octopress"
+categories:
+  - communicate
+tags:
+  - "#octopress"
+  - "#blog"
 ---
 
 Watching the Twitter posts, it looks like a lot of work has gone

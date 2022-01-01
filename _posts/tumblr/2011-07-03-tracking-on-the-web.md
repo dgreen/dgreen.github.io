@@ -2,8 +2,10 @@
 related: true
 title: Tracking on the web...
 categories:
-- web
-- privacy
+  - computing
+tags:
+  - "#web"
+  - "#privacy"
 ---
 I ran across a write up on [Ghostery][1] in the most recent edition of
 MacWorld (not online yet). According to its [website][1],

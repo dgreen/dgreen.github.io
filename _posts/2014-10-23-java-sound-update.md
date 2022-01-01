@@ -3,8 +3,11 @@ related: true
 title: "Java Sound Update"
 date: 2014-10-23 22:24
 comments: true
-categories: developer
-tags: "#Java"
+categories:
+  - developer
+  - teach
+tags:
+  - "#java"
 ---
 
 For years, I have been using (and advising the use of sun.audio) for playing sounds in the Java VM
@@ -36,7 +39,7 @@ import javax.sound.sampled.Clip;
  */
 public class ModernRingPhone {
 
-  public static void main(String[] args) 
+  public static void main(String[] args)
   {
     try {
         // open the sound file as a Java input stream
@@ -48,8 +51,8 @@ public class ModernRingPhone {
 
         // play the audio clip with the audioplayer class
         clip.start();
-        
-        // wait for sound to finish before terminating program (necessary for 
+
+        // wait for sound to finish before terminating program (necessary for
         // running inside NetBeans, at least)
         Thread.sleep(10000);
     }

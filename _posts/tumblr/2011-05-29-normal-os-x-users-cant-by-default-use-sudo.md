@@ -1,7 +1,11 @@
 ---
 related: true
 title: Normal OS X users can't, by default, use sudo
-categories: 
+categories:
+  - computing
+tags:
+  - "#macos"
+  - "#security"
 ---
 As the MacDefender phishing installing malware becomes prevalent, folks are
 repeating security advice such as the following from MacFixit (of the CNet

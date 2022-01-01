@@ -1,7 +1,9 @@
 ---
 related: true
 title: svn merging -- additional comments
-categories: developer
+categories:
+  - developer
+tags: "#sw-repository"
 ---
 This is a small expansion on an earlier [post][1] about svn merging.
 

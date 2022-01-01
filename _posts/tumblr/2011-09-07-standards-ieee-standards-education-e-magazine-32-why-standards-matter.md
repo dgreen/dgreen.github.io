@@ -1,9 +1,11 @@
 ---
 related: true
 title: ! 'Standards: IEEE Standards Education e-Magazine (3.2 Why Standards Matter)'
-categories: IEEE
+categories:
+  - teach
 tags:
-  - "#standards"
+  - "#standard"
+  - "#ieee"
 ---
 [Standards: IEEE Standards Education e-Magazine (3.2 Why Standards Matter)][1]
 

@@ -3,8 +3,12 @@ related: true
 title: "Dark Sky - Weather App"
 date: 2021-02-16 23:40
 comments: true
-categories: privacy personal
-tags: "#application"
+categories:
+  - personal
+tags:
+  - "#macos"
+  - "#ios"
+  - "#privacy"
 ---
 
 <style>div img { padding: 10px; width: 180px; }</style>

@@ -1,12 +1,13 @@
 ---
 related: true
-title: "Onward to Maven in Apache NetBeans"
+title: Onward to Maven in Apache NetBeans
 date: 2019-09-15 11:23
 comments: true
-categories: developer
+categories:
+  - developer
 tags:
-  - "#Java"
-  - "#NetBeans"
+  - "#java"
+  - "#netbeans"
 ---
 
 > An update to this article is [available](/blog/2021/07/13/update-to-using-maven-to-build-executable-jar-files/)

@@ -1,7 +1,10 @@
 ---
 related: true
 title: Mail Clients for the Mac
-cateogories: application email macOS
+cateogories: computing
+tags:
+  - "#email"
+  - "#macOS"
 ---
 Ouch.  Sure want to use the Apple trio (Mail, iCal, Address Book) rather than
 Entourage so that I can take advantage of the ease of incremental backup and

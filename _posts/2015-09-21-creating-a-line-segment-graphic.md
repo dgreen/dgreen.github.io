@@ -3,8 +3,11 @@ related: true
 title: "Creating a Line Segment Graphic"
 date: 2015-09-21 21:23
 comments: true
-categories: developer
-tags: "#Java"
+categories:
+  - developer
+  - teach
+tags:
+  - "#java"
 ---
 
 The following code
@@ -34,7 +37,7 @@ import javax.imageio.ImageIO;
 public class CreateSimplePlot {
 
   static public void main(String args[]) throws Exception {
-    
+
     double t;       // time
     double oldT;    // old time
     double deltaT;  // time increment
@@ -70,7 +73,7 @@ public class CreateSimplePlot {
 
       // write the resulting file
       ImageIO.write(bi, "PNG", new File("plot.png"));
-      
+
     } catch (IOException ie) {
       System.out.println("Exception raised " + ie);
     }

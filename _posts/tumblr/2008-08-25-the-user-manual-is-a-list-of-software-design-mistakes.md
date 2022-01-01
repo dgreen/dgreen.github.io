@@ -1,7 +1,11 @@
 ---
 related: true
 title: The user manual is a list of software design mistakes.
-categories: developer quote
+categories:
+  - developer
+  - communicate
+tags:
+  - "#quote"
 ---
 > The user manual is a list of software design mistakes.
 

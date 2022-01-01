@@ -1,7 +1,11 @@
 ---
 related: true
 title: ! 'all about agile: Agile Principle #7: "done" means "DONE!"'
-categories: productivity
+categories:
+  - productivity
+  - develop
+tags:
+  - "#agile"
 ---
 [all about agile: Agile Principle #7: "done" means "DONE!"][1]
 

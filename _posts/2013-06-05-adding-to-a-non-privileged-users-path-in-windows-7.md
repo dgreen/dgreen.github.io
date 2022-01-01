@@ -3,7 +3,10 @@ title: "Adding to a non-privileged users path in Windows 7"
 related: true
 date: 2013-06-05 15:35
 comments: true
-categories: Windows
+categories:
+  - computing
+tags:
+  - "#windows"
 ---
 Does it have to be this hard?
 

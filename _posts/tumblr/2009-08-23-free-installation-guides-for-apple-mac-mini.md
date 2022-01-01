@@ -1,7 +1,11 @@
 ---
 related: true
 title: Free Installation Guides for Apple Mac mini
-categories: 
+categories:
+  - computing
+tags:
+  - "#mac"
+  - "#upgrade"
 ---
 [Free Installation Guides for Apple Mac mini][1]
 

@@ -2,7 +2,10 @@
 related: true
 title: Ten Things You Didn't Know Rails Could Do - James Edward Gray II - RailsConf
   2012
-categories: 
+categories:
+  - develop
+tags:
+  - "#rails"
 ---
 [Ten Things You Didnt Know Rails Could Do - James Edward Gray II - RailsConf 2012][1]
 

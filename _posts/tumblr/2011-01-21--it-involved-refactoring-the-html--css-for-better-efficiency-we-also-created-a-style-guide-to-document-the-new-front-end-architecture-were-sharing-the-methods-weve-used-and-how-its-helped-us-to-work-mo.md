@@ -3,7 +3,10 @@ related: true
 title: … it involved refactoring the HTML & CSS for better efficiency. We also created
   a style guide to document the new front-end architecture. We’re sharing the methods
   we’ve used and how it’s helped us to work more efficiently …
-categories: 
+categories:
+  - develop
+tags:
+  - "#web"
 ---
 > … it involved refactoring the HTML & CSS for better efficiency. We also
 created a style guide to document the new front-end architecture. We’re

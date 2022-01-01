@@ -1,7 +1,10 @@
 ---
 related: true
 title: ! 'Gmail: It’s cooler in the cloud - Official Gmail Blog'
-categories: 
+categories:
+  - computing
+tags:
+  - "#climate"
 ---
 [Gmail: It’s cooler in the cloud - Official Gmail Blog][1]
 

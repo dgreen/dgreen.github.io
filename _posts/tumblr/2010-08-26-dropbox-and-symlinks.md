@@ -1,11 +1,9 @@
 ---
 related: true
 title: Dropbox and symlinks
-categories: 
+categories:
   - computing
-keys:
-  - "#cloud"
-  - "#services"
+keys: #cloud #services #bugs
 ---
 Symlinks don't work well with Dropbox. They cause unexpected unrolling of the
 symlink on the clients that don't originate the symlink.

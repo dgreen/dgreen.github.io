@@ -1,7 +1,11 @@
 ---
 related: true
 title: How I use TextMate
-categories: application
+categories:
+  - computing
+  - developer
+tags:
+  - "#textmate"
 ---
 [How I use TextMate][1]
 

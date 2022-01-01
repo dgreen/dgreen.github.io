@@ -2,7 +2,10 @@
 related: true
 title: Upgrading a 3G to IOS 4
 categories:
-- iOS
+  - computing
+tags:
+  - "#ios"
+  - "#upgrading"
 ---
 ![][1]
 

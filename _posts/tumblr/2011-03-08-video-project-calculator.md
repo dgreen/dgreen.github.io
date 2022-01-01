@@ -1,9 +1,13 @@
 ---
 related: true
 title: Video Project Calculator
-categories: 
+categories:
+  - teach
+  - productivity
+tags:
+  - "#deadurl"
 ---
-[Video Project Calculator][1]
+[Video Project Calculator][1] ☹️ dead url
 
 >A tool to give a simple project plan for student video projects.
 

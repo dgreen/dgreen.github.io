@@ -1,7 +1,9 @@
 ---
 related: true
 title: MultiMarkdown
-categories: computing
+categories:
+  - communicate
+  - teach
 tags:
   - "#markdown"
 ---

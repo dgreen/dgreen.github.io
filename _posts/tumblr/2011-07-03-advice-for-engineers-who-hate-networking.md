@@ -1,7 +1,11 @@
 ---
 related: true
 title: Advice for Engineers Who Hate Networking
-categories: 
+categories:
+  - productivity
+  - teach
+tags:
+  - "#softskills"
 ---
 [Advice for Engineers Who Hate Networking][1]
 

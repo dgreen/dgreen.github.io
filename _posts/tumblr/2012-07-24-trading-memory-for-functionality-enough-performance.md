@@ -1,7 +1,11 @@
 ---
 related: true
 title: Trading Memory for Functionality (Enough Performance)
-categories: 
+categories:
+  - develop
+  - computing
+tags:
+  - "#macos"
 ---
 I was working on a the last note and wanted to check things out under a fresh
 install. I decided to make a new Mac User to accomplish this. I used GitHub

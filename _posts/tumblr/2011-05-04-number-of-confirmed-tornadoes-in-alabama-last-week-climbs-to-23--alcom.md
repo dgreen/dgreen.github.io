@@ -1,9 +1,12 @@
 ---
 related: true
-title: Number of confirmed tornadoes in Alabama last week climbs to 23 | al.com
-categories: 
+title: Number of confirmed tornadoes in Alabama last week climbs to 23 from al.com
+categories:
+  - personal
+tags:
+  - "#disaster"
 ---
-[Number of confirmed tornadoes in Alabama last week climbs to 23 | al.com][1]
+[Number of confirmed tornadoes in Alabama last week climbs to 23 from al.com][1]
 
 > Enclosed graphics shows the tornado tracks across the state of Alabama.
 

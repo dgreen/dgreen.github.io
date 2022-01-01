@@ -1,7 +1,12 @@
 ---
 related: true
 title: Does Cloud Computing Mean More Risks to Privacy? - Bits Blog - NYTimes.com
-categories: 
+categories:
+  - computing
+  - develop
+tags:
+  - "#privacy"
+  - "#cloud"
 ---
 [Does Cloud Computing Mean More Risks to Privacy? - Bits Blog -
 NYTimes.com][1]

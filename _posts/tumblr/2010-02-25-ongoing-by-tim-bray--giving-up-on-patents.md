@@ -1,7 +1,10 @@
 ---
 related: true
 title: ongoing by Tim Bray · Giving Up On Patents
-categories: 
+categories:
+  - develop
+tags:
+  - "#patent"
 ---
 [ongoing by Tim Bray · Giving Up On Patents][1]
 

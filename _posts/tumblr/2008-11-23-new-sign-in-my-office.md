@@ -1,7 +1,11 @@
 ---
 related: true
 title: ! 'New sign in my office'
-categories: quote
+categories:
+  - teach
+  - communicate
+tags:
+  - "#quote"
 ---
 > New sign in my office: "How do you want your answer? (Choose two) Immediate.
 Accurate. Brief.

@@ -6,6 +6,8 @@ main:
 #   url: /about/
   - title: "by date"
     url: /date-archive/
+#  - title: "Pages"
+#    url: /page-archive/
   - title: "by category"
     url: /categories/
   - title: "by tag"

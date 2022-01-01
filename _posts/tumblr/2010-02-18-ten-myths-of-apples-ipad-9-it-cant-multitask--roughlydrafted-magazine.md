@@ -1,7 +1,11 @@
 ---
 related: true
 title: ! 'Ten Myths of Apple’s iPad: 9. It can’t multitask — RoughlyDrafted Magazine'
-categories: 
+categories:
+  - computing
+tags:
+  - "#ios"
+  - "#ipad"
 ---
 [Ten Myths of Apple’s iPad: 9. It can’t multitask — RoughlyDrafted
 Magazine][1]

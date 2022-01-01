@@ -1,7 +1,11 @@
 ---
 related: true
 title: ! 'Dropbox: The Inside Story Of Tech''s Hottest Startup - Forbes'
-categories: 
+categories:
+  - develop
+tags:
+  - "#history"
+  - "#security"
 ---
 [Dropbox: The Inside Story Of Techs Hottest Startup - Forbes][1]
 

@@ -2,7 +2,11 @@
 related: true
 title: Facilitate a process by which errors are found by one’s colleagues not by one’s
   users.
-categories: developer quote
+categories:
+  - developer
+  - collaborate
+tags:
+  - "#quote"
 ---
 > Facilitate a process by which errors are found by one's colleagues not by
 one's users.

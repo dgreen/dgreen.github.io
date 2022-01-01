@@ -3,10 +3,11 @@ title: "Staying with Evernote"
 date: 2021-12-31 16:20
 comments: true
 related: true
-categories: productivity
-tags: 
+categories:
+  - productivity
+tags:
   - "#evernote"
-teaser: Staying with Evernote 10
+excerpt: Staying with Evernote 10 -- it is good enougb
 ---
 ### In the (my) beginning
 
@@ -46,13 +47,9 @@ With the power issue mitigated, I have ended my alternative evaluation and will 
 Recent neat things that make Evernote even better for me feature-wise include:
 
 * Grammarly Desktop works inside Evernote (done by Grammarly, not Evernote)
-
 * Google Calendar linkage to notes
-
 * Tasks
-
 * Home view of Evernote
-
 * Reinstatement of the ⌘+ J search shortcut
 
 

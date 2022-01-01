@@ -1,7 +1,10 @@
 ---
 related: true
 title: Mail clients and batteries
-categories: 
+categories:
+  - computing
+tags:
+  - "#email"
 ---
 Just a preliminary thought based on a few observations on my Mac…
 
@@ -10,10 +13,10 @@ Exchange and a GMail mailbox (settings: Check every 15 mins, Use IDLE if
 server supports it).
 
 Using Mailplane to monitor GMail (web app inside nice Mac interface), CPU
-3.0%.  One can close the windows without closing the application and get this
+3.0%. One can close the windows without closing the application and get this
 down to 0.2-0.5%.
 
-Using Safari to monigor GMail CPU 5-7%.  (Firefox show similar if not slightly
+Using Safari to monitor GMail CPU 5-7%. (Firefox show similar if not slightly
 higher numbers).
 
 Seems like there are battery discharge time considerations here for mobile

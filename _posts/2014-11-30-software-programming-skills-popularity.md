@@ -3,8 +3,12 @@ related: true
 title: "Software Programming Skills Popularity"
 date: 2014-11-30 20:20
 comments: true
-categories: developer
-tags: "#Java"
+categories:
+  - developer
+  - teach
+tags:
+  - "#java"
+  - "#rails"
 ---
 
 There are lots of ways to evaluate popularity, and in the end, all are probably very transitory.

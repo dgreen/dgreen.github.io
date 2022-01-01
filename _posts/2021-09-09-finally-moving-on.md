@@ -3,10 +3,14 @@ title: "Finally Moving On"
 date: 2021-09-09 01:20
 comments: true
 related: true
-categories: blog
-tags: 
-  - "#omnipress"
+categories:
+  - personal
+  - communicate
+  - news
+tags:
+  - "#octopress"
   - "#jekyll"
+  - "#upgrading"
 teaser: Moving from Octopress to Jekyll preserving permalinks.
 ---
 After eight years of using Octopress, this site is moving to a purer [Jekyll][] blog using [Minimal Mistakes Theme][mmt].  I have previously written about the problems of keeping it going ([1][], [2][]) and have looked at alternatives several times.  Recently I built a couple of other small websites using Jekyll.  The straw that moved me to action was discovering that the JQuery version used had several security issues.  Rather than work through that problem with the likelihood of other problems, I decided to experiment with moving my content.

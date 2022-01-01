@@ -1,7 +1,11 @@
 ---
 related: true
 title: Onto the iPhone
-categories: personal iPhone
+categories:
+  - personal
+  - computing
+tags:
+  - "#iphone"
 ---
 [Onto the iPhone][1]
 

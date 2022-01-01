@@ -2,7 +2,9 @@
 related: true
 title: Printing Multiple Files in NetBeans
 categories:
-- NetBeans
+  - developer
+tags:
+  - "#netbeans"
 ---
 I wanted to produce a collection of PDF files associated with the source of an
 applications developed in NetBeans (6.9). The File | Print option in Project
