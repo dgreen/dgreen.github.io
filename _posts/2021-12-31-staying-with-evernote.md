@@ -7,7 +7,7 @@ categories:
   - productivity
 tags:
   - "#evernote"
-excerpt: Staying with Evernote 10 -- it is good enougb
+excerpt: Staying with Evernote 10 -- it is good enough
 ---
 ### In the (my) beginning
 

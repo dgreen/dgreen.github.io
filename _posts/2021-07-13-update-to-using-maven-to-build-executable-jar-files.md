@@ -17,7 +17,7 @@ This is an update to an [earlier post](/blog/2019/09/15/onward-to-maven/).
 
 At the time of writing, [*Apache NetBeans*][apacheNetBeans] is at version 12.4 and there are several suppliers of JDKs.  The latest LTS (Long Term Support) version is JDK 11 and the latest MTS (Medium Term Support) is JDK15.
 
-[Apache Maven][] remains the preferred build automation from for new projects.
+[Apache Maven][] remains the preferred build automation for new projects.
 
 One area that is remains unpolished (IMO) is the building of a *jar* file that can be run from the command line.  The menu process "Run &#9654; Clean and Build Main Project" will build a *jar* file but it won't configure the manifest so that
 

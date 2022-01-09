@@ -115,16 +115,21 @@ author:
       # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
+      url: "https://twitter.com/dgreeo"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/dgreen"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+    - label: "Collabratec"
+      icon: "fas fa-fw fa-link"
+      url: "https://ieee-collabratec.ieee.org/app/p/DavidGreen73"
+# note in the above collabratec icon NOT in Font Awesome's set so link is used
+
 
 # Site Footer
 footer:
