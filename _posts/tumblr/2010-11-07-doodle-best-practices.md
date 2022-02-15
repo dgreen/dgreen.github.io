@@ -12,7 +12,7 @@ use it a lot both for UAB and IEEE activities. Once one builds an account it
 becomes even more valuable remembering the meetings you are setting up as well
 as the meetings you have responded to that are hosted by others. Doodle can
 also handle 1) time zones and 2) "if I have to" as well as yes/no meetings
-<G>. With an account, one can link a Doodle .ics feed into one's calendar to
+&lt;G&gt;. With an account, one can link a Doodle .ics feed into one's calendar to
 remember promises made.
 
 _Best practice 1_ -- Meeting planners shall use timezones. It may only seem
