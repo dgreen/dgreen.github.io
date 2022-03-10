@@ -8,7 +8,7 @@ categories:
   - collaborate
 tags:
   - "#calendar"
-excerpt: A Well Designed Markdown Editor for Writing
+excerpt: A story that now has a sad ending
 ---
 Update: 20220309
 
