@@ -1,5 +1,5 @@
 ---
-title: "Doodle for the rest of us -- the meeting participants"
+title: "<del>Doodle</del> for the rest of us -- the meeting participants"
 date: 2022-02-15 12:00
 comments: true
 related: true
@@ -10,6 +10,14 @@ tags:
   - "#calendar"
 excerpt: A Well Designed Markdown Editor for Writing
 ---
+Update: 20220309
+
+Sigh, I spoke too soon.  It looks like my feature has disappeared again, and worse, they are now also pushing the scheduled date back to a calendar with an option not to do so (if you connect a calendar).  It was a good tool for me before they "evolved it."
+
+I have left this article in hopes that a solution may occur.
+
+---
+
 Like other calendar tools, [Doodle](https://doodle.com) has features to support establishing a meeting time.  The primary focus is appropriately on the meeting planner, but Doodle also has valuable features for the participant.  This note looks at those features available to the participant **if the participant subscribes to Doodle**.
 
 The features that are available to the subscribing participant include
