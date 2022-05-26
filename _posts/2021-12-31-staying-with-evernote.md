@@ -46,7 +46,7 @@ With the power issue mitigated, I have ended my alternative evaluation and will 
 
 Recent neat things that make Evernote even better for me feature-wise include:
 
-* Grammarly Desktop works inside Evernote (done by Grammarly, not Evernote)
+* <del>Grammarly Desktop works inside Evernote (done by Grammarly, not Evernote)</del> [^1]
 * Google Calendar linkage to notes
 * Tasks
 * Home view of Evernote
@@ -68,3 +68,7 @@ Things that would be nice for them to do:
 1. Support source code highlighting and graphics like [mermaid](https://mermaid-js.github.io/mermaid/#/).
 2. Restore the Sync button to the desktop to allow one to know that all syncing that can be done has been done.
 
+
+[^1]:  Evernote and Grammarly Desktop are *not* working together after just a brief time when they did.  This is acknowledged by both vendors ([Grammarly's post][GPost]) so it may be a while before this support returns. (added 20220526)
+
+[GPost]: https://support.grammarly.com/hc/en-us/articles/4428282986893-Grammarly-for-Mac-doesn-t-work-in-certain-apps-for-Mac
