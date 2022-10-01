@@ -44,4 +44,4 @@ Today's email message is a complicated collection of HTML intended to deliver in
 4. You can not tag a line in note but only tag the whole note.
 5. You can not get a random page from your collection presented to you.  This random note feature is useful for both reminding you of information and to provide a way to update your content either by updating or deleting the note.
 
-[^1]: Jamie Tood Rubin, https://jamierubin.net/2021/06/22/evernote-and-obsidian-collecting-vs-creating/
+[^1]: Jamie Tood Rubin, <https://jamierubin.net/2021/06/22/evernote-and-obsidian-collecting-vs-creating/>
