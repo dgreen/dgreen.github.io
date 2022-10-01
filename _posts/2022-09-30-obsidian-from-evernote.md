@@ -11,7 +11,7 @@ tags:
   - "#obsidian"
 excerpt: Strong linking, community, and portability with more automation options
 ---
-Like many, I can't seem to help looking at new alternatives.  While I have done this before, this time I choose to move my focus from Evernote which I have used since 2008 to Obsidian.  While I did not formally think of it that way as I approached changing, Another author characterization the trade-offs I see: "Evernote is for collecting, Obsidian is for creating"[^1] captures what I was discovering.  I do both so it made the decision difficult.
+Like many, I can't seem to help looking at new alternatives.  While I have done this before, this time I choose to move my focus from [Evernote](https://evernote.com) which I have used since 2008 to [Obsidian](https://obsidian.md).  While I did not formally think of it that way as I approached changing, Another author characterization the trade-offs I see: "Evernote is for collecting, Obsidian is for creating"[^1] captures what I was discovering.  I do both so it made the decision difficult.
 
 As I often do, I made a mindmap (shown below) to explore the decision.  I would note that the mindmap represents the tradeoffs that existed in May 2022 -- both products have changed a bit with Obsidian, as the newer product with community plugins, making larger strides.  You can also see I thought about reverting back as well.
 
@@ -26,7 +26,7 @@ The specific captures that Evernote does so well include
 
 ### Web clipping
 
-Evernote generally does this well and fails much less often than most tools.  That said, I have come to realize that in most cases, I am merely creating a copy of the web in my Evernote storage where I really need to create a short summary of the information (and why it is important to me) and a link to the Internet content.  Generally, I have found that if the content goes away, it probably was not worth permanently having a copy, and even then the Internet Archive often helps me recover the content.  So with Obsidian, I generally practice theis and only make a PDF, Web Archive, custom page in Obsidian, or link to Evernote for those rare pages I think I really want to have for certain. I should note that if you use Google for your search engine and the Evernote plugin, Evernote provides a insert of content from your Evernote into Google search results.
+Evernote generally does this well and fails much less often than most tools.  That said, I have come to realize that in most cases, I am merely creating a copy of the web in my Evernote storage where I really need to create a short summary of the information (and why it is important to me) and a link to the Internet content.  Generally, I have found that if the content goes away, it probably was not worth permanently having a copy, and even then the [Internet Archive](https://web.archive.org) often helps me recover the content.  So with Obsidian, I generally practice theis and only make a PDF, Web Archive, custom page in Obsidian, or link to Evernote for those rare pages I think I really want to have. I should note that if you use Google for your search engine and the Evernote clipper plugin, Evernote provides a insert of content from your Evernote into Google search results[^2].  The [Obsidian plugin ReadItLater](https://github.com/DominikPieper/obsidian-ReadItLater) can often get the information content from a page given the URL.
 
 ### PDF indexing and image OCRing
 
@@ -45,3 +45,4 @@ Today's email message is a complicated collection of HTML intended to deliver in
 5. You can not get a random page from your collection presented to you.  This random note feature is useful for both reminding you of information and to provide a way to update your content either by updating or deleting the note.
 
 [^1]: Jamie Tood Rubin, <https://jamierubin.net/2021/06/22/evernote-and-obsidian-collecting-vs-creating/>
+[^2]: See [Evernote Web Clipper related results](https://help.evernote.com/hc/en-us/articles/208313708-Evernote-Web-Clipper-related-results)
