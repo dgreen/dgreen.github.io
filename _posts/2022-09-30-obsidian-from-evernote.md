@@ -15,7 +15,7 @@ Like many, I can't seem to help looking at new alternatives.  While I have done 
 
 As I often do, I made a mindmap (shown below) to explore the decision.  I would note that the mindmap represents the tradeoffs that existed in May 2022 -- both products have changed a bit with Obsidian, as the newer product with community plugins, making larger strides.  You can also see I thought about reverting back as well.
 
-![Evernote vs Obsidian Mindmap done in XMind by author](EvernoteVsObsidian.png)
+![Evernote vs Obsidian Mindmap done in XMind by author](/assets/images/EvernoteVsObsidian.png)
 
 At this point in time, I still have my Evernote account and content but have not renewed Filterize which changed its pricing model -- more than doubling its price to me.  Evernote is still king at Web Clipping, grabbing GMail, as well as other things noted in the Mindmap.  Obsidian shines on the creation side.  I really like the ease of linking notes with WikiLinks which I had previously used with Twiki long ago.  My daily work is in Obsidian and Evernote is not being used except for specific captures.
 
