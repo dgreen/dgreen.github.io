@@ -27,3 +27,7 @@ I could not find a Copy Pathname option in Keyboard Maestro (or anyone mentionin
 {% include figure image_path="/assets/images/20210406-new-kbm.png" alt="My Updated Keyboard Maestro Macro" %}
 
 This works but it does have a side effect of processing each of the selected items (with the clipboard left with the final result). To be honest, that may have been the behavior of the old process under Catalina as a multiple selection was not tried.
+
+### Update 2022-12-27
+
+I have noted that Evernote and Obsidian use ⌃+⌥+⌘+C to provide URI's to their content so I have changed to using the same for Finder.
