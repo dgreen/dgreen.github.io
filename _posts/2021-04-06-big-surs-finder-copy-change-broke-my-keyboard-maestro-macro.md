@@ -1,6 +1,7 @@
 ---
 title: "Big Sur's Finder Copy change broke my Keyboard Maestro macro"
-date: 2021-04-06 22:47
+# date: 2021-04-06 22:47
+date: 2022-12-29
 comments: true
 related: true
 categories:
