@@ -21,11 +21,10 @@ Exchange 2007 where there is only one side (again).
 keeps pushing one back to Entourage as the only real solution given Exchange
 (2003 at least) interoperability limitations with .ics and related formats.
 
-![][1]An interesting Google client is [MailPlane][2].  It is a front end for
+<img src="https://mailplaneapp.com//assets/images/mailplane-logo.png" width="25px" />
+An interesting Google client is [MailPlane][2].  It is a front end for
 Mac users who use Google Mail.  It looks pretty good although it has a cost
 associated with it so one must evaluate it over the free Web 2.0 client.
 
-[1]: http://mailplaneapp.com/static/1/images/Mailplane.png
-
-[2]: http://mailplaneapp.com/info/index.html (Mailplane)
+[2]: http://mailplaneapp.com/ (Mailplane)
 
