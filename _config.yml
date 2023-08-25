@@ -78,7 +78,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : "dgreeo"
+  username               : 
 facebook:
   username               :
   app_id                 :
@@ -115,7 +115,10 @@ author:
       # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/dgreeo"
+      # url: "https://twitter.com/dgreeo"
+    - label: "Mastodon"
+      icon: "fab fa-fw fa-mastodon"
+      url: "https://medium.com/@dgreenbhm"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
@@ -125,6 +128,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/davidgreen73"
     - label: "Collabratec"
       icon: "fas fa-fw fa-link"
       url: "https://ieee-collabratec.ieee.org/app/p/DavidGreen73"
