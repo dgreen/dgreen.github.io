@@ -25,7 +25,7 @@ The macro takes advantage of the fact that the Evernote search for note will ess
 
 ## WikiLink Helper for Evernote (Keyboard Maestro Macro)
 
-![WikiLink Helper for Evernote](/assets/images/Wikilink-Helper-KM-macro.png)
+![WikiLink Helper for Evernote](/assets/images/WikiLink-Helper-KM-macro.png)
 
 ## Weaknesses
 
