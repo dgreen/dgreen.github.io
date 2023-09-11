@@ -27,7 +27,7 @@ The macro takes advantage of the fact that the Evernote search for note will ess
 
 ![WikiLink Helper for Evernote](/assets/images/WikiLink-Helper-KM-macro.png)
 
-## Weaknesses
+## Limitations
 
 1. If there are multiple notes that match, it may choose the wrong one.  If there is no match, the text is swallowed up.   Undo (twice) is your friend for these cases.
 
