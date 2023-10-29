@@ -28,7 +28,7 @@ Stacks are a collection of notebooks, and notebooks are a collection of notes. M
   5. not start with a period or tilde
   6. not contain any of the following reserved words: `CON`, `PRN`, `AUX`, `NUL`, `COM1`, `COM2`, `COM3`, `COM4`, `COM5`, `COM6`, `COM7`, `COM8`, `COM9`, `LPT1`, `LPT2`, `LPT3`, `LPT4`, `LPT5`, `LPT6`, `LPT7`, `LPT8`, `LPT9`
 
-For example, I had used .Inbox for a Notebook but when it got ported to another system, the .Inbox directory was hidden from normal view. I had to rename it to +Inbox to make it visible.
+For example, I had used .Inbox for a Notebook but when it got ported to another system, the \_Inbox directory was hidden from normal view. I had to rename it to +Inbox to make it visible.
 
 I found notes are harder to manage within a restrictive naming convention, given the need for friendly, informative titles and auto-generated names from clipping activities.
 
