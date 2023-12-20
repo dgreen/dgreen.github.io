@@ -46,4 +46,6 @@ I found lots of issues with my tag usage.  Below are my original tags, and more 
 
 You can wait to fix these problems as you migrate (if you do) but it may be useful to adopt naming conventions that provide interoperability to reduce the friction and time of migration later.
 
-I use [evernote-backup](https://github.com/vzhd1701/evernote-backup) to backup my Evernote notes to a local directory.  I have noticed that tag name changes do NOT get reflected in the backup database.  To fix, I had to reinitialize the database.  This is another reason to adopt interoperable naming conventions early.
+Update: 2023-12-20
+
+I use [evernote-backup](https://github.com/vzhd1701/evernote-backup) to backup my Evernote notes to a local directory.  I have noticed that tag name changes do NOT get reflected in the backup database.  To fix, I had to reinitialize the database used by evernote-backup.  This is another reason to adopt interoperable naming conventions early.
