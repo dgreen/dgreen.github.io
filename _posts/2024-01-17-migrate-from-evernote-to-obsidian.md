@@ -38,6 +38,10 @@ No tool is an exact match for Evernote, so there are places where Obsidian may b
 
 Notes in Evernote appear to contain text, links, and various attachments.  When you move a note, everything moves.  When a note links to another note, the linkage is done by an identity string that is independent of the Note title, the Note's present Notebook, and the Notebook's Stack.  So moving Notes around does not break links nor raise any issues with embedded content.   In Obsidian, the basic note file is a markdown text file.  It contains links to files that are embedded in the note (from the user's point of view), and linkages are based on filenames.  Alas, Evernote does not presently help too much with linkages to other notes.  The exported ENEX file notes a link to another Note, but the linkage is based on the displayed text (not the underlying identity code).  This means that if the link in the Note in Evernote has a text view that matches the title of the destination Note, then the migration process will create a successful linkage, but if the original text view does not match the title, then a broken link will result.  This happens if the text view has been manually edited or if the destination Note's title has been changed without going back and fixing the text view of the link.   There is more flexibility in linking in Obsidian that can be exploited post-migration.
 
+### Text vs Title Note Link Representation in Evernote
+
+Evernote has three represenations for note links: 1) text, 2) title and 3) preview.  The linkage that Yarle does is by text. If the format is title, then the text will be the (original) title.  One can "fix" text links if there has been a text change or a title change by toggling the link from text to title format and back.  Alas, I don't know of automated way to do this across all notes.
+
 ## Migration Approaches
 One can either migrate everything in Evernote to Obsidian, start anew in Obsidian, or do a partial content migration.  In any case, the Evernote account may be used as an archive (for free, at least under the present Evernote policy).
 ## Migration (assuming there is data to move)
@@ -49,6 +53,9 @@ Basically, the steps are:
 
 ### Pre-migration clean-up
 Since Evernote and Obsidian have different rules for tags and titles, you may wish to do some pre-work in Evernote before beginning the process.  I have written an [article](https://glimmer.gwizlabs.net/blog/2023/09/11/evernote-naming-for-interoperability/) discussing some of the issues.
+
+
+The [Yarle documentation](https://github.com/akosbalasko/yarle#note-links-over-notebooks-no-problem-here-is-what-to-do) suggests making a TOC note of all notes in each notebook to reduce errors in bad linking due to duplicate note names.
 
 ### Export to ENEX Files
 
@@ -123,3 +130,9 @@ I recommend Custom Attachment Location plugin which will try to keep the structu
 As noted in the beginning, the migration to Obsidian has not stuck (yet).  I have written this up to share with others and to record the process so that I can relatively quickly do the migration again if needed.  My Evernote account has about 9000 notes and the exported ENEX files occupy about 5GB.  Using an already sync'ed `evernote_backup` database, I can export the ENEX files, run Yarle and get them into Obsidian in 4 hours or so.  If I manually export ENEX for each Notebook containing a reminder or an Evernote Task, it can take a bit longer.
 
 There will be broken links due to a variety of issues, the most frequent being the renaming of a note without going back to the source note and changing its link text.  I find that I can usually figure out the correct linkage but if not, I can go to Evernote and figure things out and manually fix them.  All in all, the migration from Evernote to Obsidian with this approach works pretty well and requires fewer fixups than all the other tools I have tried migrating to.
+
+---
+
+### 2024-10-27 Update
+1. Added suggestion from Yarle documentation re TOC note
+2. Added section on Evernote Note Link Representation
