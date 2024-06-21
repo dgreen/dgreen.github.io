@@ -8,11 +8,11 @@ categories:
   - productivity
 tags:
   - "#evernote"
-  - ""
+  - "#obsidian"
 excerpt: "An approach to migrating from Evernote to Obsidian"
 ---
 
-This article discusses migrating content from Evernote to Obsidian.   While I have decided to stay with Evernote presently, I have worked through the migration and tried out Obsidian several times.  It is my current "plan b" should something come that makes Evernote cease to make sense for me.  I decided I should collect my notes so I could save (and share) what I have learned about migrating from Evernote to Obsidian.  My last cycle was with Evernote 10.71.2 to Obsidian 1.5.3.
+This article discusses migrating content from Evernote to Obsidian.   ~~~While I have decided to stay with Evernote presently, I have worked through the migration and tried out Obsidian several times.  It is my current "plan b" should something come that makes Evernote cease to make sense for me.  I decided I should collect my notes so I could save (and share) what I have learned about migrating from Evernote to Obsidian.~~ I have made the change now based chiefly on the ability to preserve data independent of the cloud but also due to significant regression errors in Evernote (which do usually get fixed) but that unexpectedly impact one's workflow.  My latest cycle was with Evernote 10.92.3 to Obsidian 1.6.3.
 
 ## Why Obsidian
 Some of the features that might encourage one to migrate to Obsidian:
@@ -24,6 +24,8 @@ Some of the features that might encourage one to migrate to Obsidian:
 - Better linkage
 - Bug level seems low with fast potential reconciliation
 - Some graphics creation
+- Shared content won't disappear with disappearance of account owner
+- Software development not routinely exposing (paying) users to regression bugs
 - Price
 
 ## Why Obsidian hurts
@@ -31,10 +33,10 @@ No tool is an exact match for Evernote, so there are places where Obsidian may b
 - Collaboration on a subset of the collection (vault) is difficult
 - One may not feel comfortable editing Markdown
 - Reorganization can be a bit challenging with attachments
-- Sync space limitations
 - Table limitations
 - Auto OCR is limited
 - Multi-component updates (styles, plug-ins, core, installer)
+- Mobile client can be challenging
 
 Notes in Evernote appear to contain text, links, and various attachments.  When you move a note, everything moves.  When a note links to another note, the linkage is done by an identity string that is independent of the Note title, the Note's present Notebook, and the Notebook's Stack.  So moving Notes around does not break links nor raise any issues with embedded content.   In Obsidian, the basic note file is a markdown text file.  It contains links to files that are embedded in the note (from the user's point of view), and linkages are based on filenames.  Alas, Evernote does not presently help too much with linkages to other notes.  The exported ENEX file notes a link to another Note, but the linkage is based on the displayed text (not the underlying identity code).  This means that if the link in the Note in Evernote has a text view that matches the title of the destination Note, then the migration process will create a successful linkage, but if the original text view does not match the title, then a broken link will result.  This happens if the text view has been manually edited or if the destination Note's title has been changed without going back and fixing the text view of the link.   There is more flexibility in linking in Obsidian that can be exploited post-migration.
 
@@ -133,6 +135,12 @@ There will be broken links due to a variety of issues, the most frequent being t
 
 ---
 
-### 2024-10-27 Update
+### 2024-06-20 Update
+1. I have moved to Obsidian and have updated the article to reflect that.
+2. Updated the section on the Yarle Importer to reflect the configuration used.
+3. Updated the Obsidian Pros and Cons to reflect my current thinking and changes in Obsidian and Evernote.
+
+
+### 2024-01-27 Update
 1. Added suggestion from Yarle documentation re TOC note
 2. Added section on Evernote Note Link Representation
