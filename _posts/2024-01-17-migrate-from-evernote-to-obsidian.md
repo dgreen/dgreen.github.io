@@ -26,6 +26,7 @@ Some of the features that might encourage one to migrate to Obsidian:
 - Some graphics creation
 - Shared content won't disappear with disappearance of account owner
 - Software development not routinely exposing (paying) users to regression bugs
+- URIs work
 - Price
 
 ## Why Obsidian hurts
