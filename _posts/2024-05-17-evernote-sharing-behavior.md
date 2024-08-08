@@ -8,7 +8,6 @@ categories:
   - productivity
 tags:
   - "#evernote"
-  - ""
 excerpt: "Evernote sharing behavior and implications for family sharing"
 ---
 
