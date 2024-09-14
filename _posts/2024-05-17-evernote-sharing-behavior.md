@@ -1,7 +1,6 @@
 ---
 title: "Evernote Sharing Behavior and Implications for Family Sharing"
-date: 2024-06-17
-last_modified_at: 2024-06-17
+original_date: 2024-05-17
 comments: true
 related: true
 categories:
